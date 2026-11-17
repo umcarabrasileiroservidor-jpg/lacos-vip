@@ -535,6 +535,7 @@ function telaAjustes() {
     <label class="campo" style="max-width:240px"><span>Pedido mínimo (R$)</span><input type="text" inputmode="decimal" data-alvo="loja" data-campo="pedidoMinimo" data-tipo="preco" value="${precoBR(l.pedidoMinimo)}"><small>Use 0 para não ter mínimo.</small></label>
     ${sw('loja', 'bloquearAbaixoDoMinimo', 'Bloquear envio abaixo do mínimo', l.bloquearAbaixoDoMinimo, 'Desligado: o cliente vê quanto falta, mas ainda consegue enviar.')}
     ${campo('loja', 'mensagemPedido', 'Primeira linha da mensagem do pedido', l.mensagemPedido)}
+    ${campo('loja', 'repositorio', 'Repositório do GitHub (usuário/nome)', l.repositorio, { ph: 'usuario/lacos-vip', ajuda: 'Onde o painel salva os dados.' })}
     ${campo('loja', 'urlSite', 'Endereço do site (para o Google)', l.urlSite, { tipo: 'url', ph: 'https://lacosvip.com.br', ajuda: 'Preencha quando tiver domínio próprio. Usado no mapa do site e nas pré-visualizações de link.' })}
   </div>
   ${E.armazem.tipo === 'github' ? `<div class="cartao"><h2>Acesso ao painel</h2>
@@ -800,6 +801,12 @@ function telaEntrada(trocando = false) {
     <p class="alerta-caixa erro" data-e-erro hidden></p>
     <button class="btn btn-p" data-entrar>Conectar</button>
   </div></div>`;
+  // preenche usuário/repositório a partir das configurações da loja
+  fetch('../dados.json', { cache: 'no-store' }).then((r) => r.json()).then((d) => {
+    const [dono, repo] = String(d.loja?.repositorio || '').split('/');
+    if (dono && !$('[data-e="dono"]').value) $('[data-e="dono"]').value = dono;
+    if (repo && !$('[data-e="repo"]').value) $('[data-e="repo"]').value = repo;
+  }).catch(() => {});
   $('[data-entrar]').onclick = async () => {
     const v = (k) => $(`[data-e="${k}"]`).value.trim();
     const conf = { dono: v('dono'), repo: v('repo'), chave: v('chave') };
@@ -815,7 +822,9 @@ async function iniciar() {
   // link de acesso: #chave=github_pat_...
   const m = location.hash.match(/^#chave=([\w-]+)/);
   if (m && !local) {
-    const conf = { ...adivinharRepositorio(), ...(ler(CHAVE_ACESSO) || {}), chave: m[1] };
+    let doSite = {};
+    try { const [dono, repo] = String((await (await fetch('../dados.json', { cache: 'no-store' })).json()).loja?.repositorio || '').split('/'); if (dono && repo) doSite = { dono, repo }; } catch { /* sem dados */ }
+    const conf = { ...adivinharRepositorio(), ...doSite, ...(ler(CHAVE_ACESSO) || {}), chave: m[1] };
     localStorage.setItem(CHAVE_ACESSO, JSON.stringify(conf));
     history.replaceState(null, '', location.pathname + '#/produtos'); // tira a chave da barra de endereço
   }

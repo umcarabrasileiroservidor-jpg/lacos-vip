@@ -1,0 +1,7 @@
+/painel/*
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer
+/fotos/*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -9,48 +9,41 @@ O código, as fotos e os dados ficam **no seu GitHub**. O custo mensal é **R$ 0
 
 | Parte | Onde fica | Custo |
 |---|---|---|
-| Site (o que o cliente vê) | GitHub Pages | Grátis |
-| Painel (onde você edita) | `seu-site/painel/` | Grátis |
-| Produtos, preços e campanhas | arquivo `data/catalogo.json` no seu repositório | Grátis |
-| Fotos (originais e versões leves) | pastas `originais/` e `fotos/` no seu repositório | Grátis |
+| Código, dados e fotos | seu repositório no GitHub (`umcarabrasileiroservidor-jpg/lacos-vip`) | Grátis |
+| Site publicado | Cloudflare Pages: **https://lacos-vip.pages.dev** | Grátis, sem cartão (até 500 publicações por mês) |
+| Painel | **https://lacos-vip.pages.dev/painel/** | Grátis |
 | Histórico e backup | cada publicação vira uma versão no GitHub | Grátis |
 | Domínio próprio (opcional) | registro.br (cerca de R$ 40/ano para .com.br) | Opcional |
 
-Quando você aperta **Publicar no site** no painel, o GitHub recebe as mudanças e, em cerca de 1 minuto, o site é atualizado sozinho.
+Quando você aperta **Publicar no site** no painel, as mudanças vão para o GitHub. A Cloudflare percebe e, em cerca de 1 minuto, o site é atualizado sozinho.
 
 ---
 
-## 2. Colocar o site no ar (uma única vez, cerca de 15 minutos)
+## 2. Colocar o site no ar (uma única vez, cerca de 10 minutos)
 
-### 2.1 Criar a conta e o repositório
-1. Crie uma conta grátis em **github.com**. Dica: se o nome de usuário for `lacosvip`, o site fica em **https://lacosvip.github.io**.
-2. Clique em **New repository** (o botão verde “New”).
-   - **Repository name:** `lacosvip.github.io` (troque `lacosvip` pelo seu usuário). Com esse nome, o endereço fica sem nada no final.
-   - Marque **Public**. O GitHub Pages grátis exige repositório público. Só ficam visíveis o código e as fotos, que já são públicos no site. A chave do painel **não** fica no repositório.
-   - Não marque nenhuma outra opção e clique em **Create repository**.
+O código já está no GitHub. Falta ligar a Cloudflare:
 
-### 2.2 Enviar os arquivos
-**Jeito mais fácil:** conecte o GitHub ao Claude (claude.ai › Configurações › Conectores › GitHub) e peça: *“envie o projeto Laços VIP para o meu repositório”*.
+1. Crie uma conta grátis em **dash.cloudflare.com/sign-up**. Não precisa de cartão.
+2. No menu, vá em **Compute (Workers) › Workers & Pages › Create › Pages › Import an existing Git repository**.
+3. Clique em **Connect GitHub**, autorize e escolha o repositório **lacos-vip**.
+4. Em **Set up builds and deployments**:
+   - **Project name:** `lacos-vip`. Esse nome vira o endereço `lacos-vip.pages.dev`. Se ele já estiver ocupado, use outro e depois atualize o endereço em Configurações no painel.
+   - **Framework preset:** `None`
+   - **Build command:** `node scripts/build.mjs`
+   - **Build output directory:** `dist`
+   - Em **Environment variables**, adicione `NODE_VERSION` = `22`.
+5. Clique em **Save and Deploy**. Em 1 ou 2 minutos o site está no ar.
 
-**Jeito manual (GitHub Desktop):**
-1. Instale o **GitHub Desktop** (desktop.github.com) e entre com a sua conta.
-2. *File › Clone repository* e escolha o repositório que você criou.
-3. Copie **todo o conteúdo** desta pasta (inclusive a pasta oculta `.github`) para a pasta do repositório.
-4. No GitHub Desktop, escreva “Site novo” em *Summary* e clique em **Commit to main** e depois em **Push origin**.
+> O arquivo `docs/publicar-github-pages.yml` permite publicar pelo GitHub Pages no lugar da Cloudflare, se um dia a conta do GitHub estiver sem pendências de cobrança. Para usar, mova esse arquivo para `.github/workflows/`.
 
-### 2.3 Ligar o GitHub Pages
-1. No repositório, vá em **Settings › Pages**.
-2. Em **Source**, escolha **GitHub Actions**.
-3. Abra a aba **Actions**. Quando “Publicar site” ficar verde ✓, o site está no ar.
-
-### 2.4 Criar a chave do painel
+### 2.1 Criar a chave do painel
 O painel precisa de uma chave para salvar no seu repositório. Ela é criada uma única vez:
 1. GitHub › sua foto › **Settings › Developer settings › Personal access tokens › Fine-grained tokens › Generate new token**.
 2. **Token name:** `Painel Laços VIP`. **Expiration:** a maior opção disponível (ou *No expiration*).
-3. **Repository access:** *Only select repositories* e escolha o repositório do site.
+3. **Repository access:** *Only select repositories* e escolha **lacos-vip**.
 4. **Permissions › Repository permissions › Contents:** **Read and write**.
 5. Clique em **Generate token** e copie a chave (começa com `github_pat_`).
-6. Abra `https://SEU-SITE/painel/`, preencha usuário, repositório e chave, e clique em **Conectar**.
+6. Abra **https://lacos-vip.pages.dev/painel/**, cole a chave (usuário e repositório já vêm preenchidos) e clique em **Conectar**.
 7. No painel, vá em **Configurações › Acesso ao painel › Copiar link de acesso** e guarde esse link nos favoritos do celular. Ele entra direto, sem senha.
 
 > 🔒 **O link de acesso é a chave da sua loja.** Não mande para ninguém. Se ele vazar, apague a chave no GitHub (no mesmo lugar onde ela foi criada) e crie outra. O link antigo deixa de funcionar na hora.
@@ -108,12 +101,8 @@ Sugestão: uma vez por mês, baixe o **.zip completo** e guarde no Google Drive 
 
 ## 4. Domínio próprio (quando quiser)
 1. Registre o domínio no **registro.br** (ex.: `lacosvip.com.br`).
-2. No GitHub: **Settings › Pages › Custom domain** e digite o domínio.
-3. No registro.br, em **DNS**, crie:
-   - quatro registros **A** para `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`;
-   - um registro **CNAME** para `www` apontando para `SEU-USUARIO.github.io`.
-4. Volte em Settings › Pages e marque **Enforce HTTPS** quando a opção liberar (pode levar algumas horas).
-5. No painel, em **Configurações › Endereço do site**, coloque `https://lacosvip.com.br`.
+2. Na Cloudflare: **Workers & Pages › lacos-vip › Custom domains › Set up a custom domain** e siga as instruções. A Cloudflare mostra exatamente o que configurar no registro.br.
+3. No painel, em **Configurações › Endereço do site**, coloque `https://lacosvip.com.br` e publique.
 
 ---
 
@@ -132,7 +121,7 @@ site/                     código do site e do painel (HTML, CSS, JavaScript, se
   painel/                 painel administrativo
 scripts/build.mjs         gera o site em dist/ (Node.js 18 ou mais novo, sem instalar nada)
 scripts/dev-server.mjs    testa site + painel no computador: node scripts/dev-server.mjs
-.github/workflows/        publicação automática no GitHub Pages
+docs/publicar-github-pages.yml   publicação alternativa pelo GitHub Pages
 ```
 
 **Testar no computador:** instale o Node.js (nodejs.org), abra o terminal nesta pasta e rode `node scripts/dev-server.mjs`. Depois abra http://localhost:8787 (site) e http://localhost:8787/painel/ (painel). No computador, o painel salva direto nesta pasta e não precisa de chave.

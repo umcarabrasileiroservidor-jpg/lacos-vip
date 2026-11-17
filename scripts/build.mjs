@@ -13,9 +13,10 @@ const DIST = path.join(RAIZ, 'dist');
 const arg = (n, padrao) => { const i = process.argv.indexOf(n); return i > -1 ? process.argv[i + 1] : padrao; };
 let BASE = arg('--base', process.env.SITE_BASE || '/');
 if (!BASE.endsWith('/')) BASE += '/';
-const URL_SITE = (arg('--url', process.env.SITE_URL || '') || '').replace(/\/$/, '');
+let URL_SITE = (arg('--url', process.env.SITE_URL || '') || '').replace(/\/$/, '');
 
 const dados = JSON.parse(await readFile(path.join(RAIZ, 'data/catalogo.json'), 'utf8'));
+if (!URL_SITE && dados.loja.urlSite) URL_SITE = String(dados.loja.urlSite).replace(/\/$/, '');
 const hoje = hojeBR();
 const ativas = campanhasAtivas(dados, hoje);
 const ctx = { base: BASE, categorias: dados.categorias, ativas };
@@ -171,5 +172,6 @@ if (URL_SITE) {
   await writeFile(path.join(DIST, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${esc(u)}</loc></url>`).join('\n')}\n</urlset>\n`);
 }
 await writeFile(path.join(DIST, '.nojekyll'), '');
+await cp(path.join(RAIZ, 'site/_headers'), path.join(DIST, '_headers')).catch(() => {});
 
 console.log(`Site gerado em dist/ — ${nProdutos} páginas de produto, campanha no ar: ${ativas.map((c) => c.nome).join(', ') || 'nenhuma'} (hoje ${hoje}), base ${BASE}`);
