@@ -10,8 +10,8 @@ O código, as fotos e os dados ficam **no seu GitHub**. O custo mensal é **R$ 0
 | Parte | Onde fica | Custo |
 |---|---|---|
 | Código, dados e fotos | seu repositório no GitHub (`umcarabrasileiroservidor-jpg/lacos-vip`) | Grátis |
-| Site publicado | Cloudflare Pages: **https://lacos-vip.pages.dev** | Grátis, sem cartão (até 500 publicações por mês) |
-| Painel | **https://lacos-vip.pages.dev/painel/** | Grátis |
+| Site publicado | Cloudflare Pages: **https://lacos-vip.umcarabrasileiroservidor.workers.dev** | Grátis, sem cartão (até 500 publicações por mês) |
+| Painel | **https://lacos-vip.umcarabrasileiroservidor.workers.dev/painel/** | Grátis |
 | Histórico e backup | cada publicação vira uma versão no GitHub | Grátis |
 | Domínio próprio (opcional) | registro.br (cerca de R$ 40/ano para .com.br) | Opcional |
 
@@ -27,7 +27,7 @@ O código já está no GitHub. Falta ligar a Cloudflare:
 2. No menu, vá em **Compute (Workers) › Workers & Pages › Create › Pages › Import an existing Git repository**.
 3. Clique em **Connect GitHub**, autorize e escolha o repositório **lacos-vip**.
 4. Em **Set up builds and deployments**:
-   - **Project name:** `lacos-vip`. Esse nome vira o endereço `lacos-vip.pages.dev`. Se ele já estiver ocupado, use outro e depois atualize o endereço em Configurações no painel.
+   - **Project name:** `lacos-vip`. Esse nome vira o endereço `lacos-vip.umcarabrasileiroservidor.workers.dev`. Se ele já estiver ocupado, use outro e depois atualize o endereço em Configurações no painel.
    - **Framework preset:** `None`
    - **Build command:** `node scripts/build.mjs`
    - **Build output directory:** `dist`
@@ -43,7 +43,7 @@ O painel precisa de uma chave para salvar no seu repositório. Ela é criada uma
 3. **Repository access:** *Only select repositories* e escolha **lacos-vip**.
 4. **Permissions › Repository permissions › Contents:** **Read and write**.
 5. Clique em **Generate token** e copie a chave (começa com `github_pat_`).
-6. Abra **https://lacos-vip.pages.dev/painel/**, cole a chave (usuário e repositório já vêm preenchidos) e clique em **Conectar**.
+6. Abra **https://lacos-vip.umcarabrasileiroservidor.workers.dev/painel/**, cole a chave (usuário e repositório já vêm preenchidos) e clique em **Conectar**.
 7. No painel, vá em **Configurações › Acesso ao painel › Copiar link de acesso** e guarde esse link nos favoritos do celular. Ele entra direto, sem senha.
 
 > 🔒 **O link de acesso é a chave da sua loja.** Não mande para ninguém. Se ele vazar, apague a chave no GitHub (no mesmo lugar onde ela foi criada) e crie outra. O link antigo deixa de funcionar na hora.

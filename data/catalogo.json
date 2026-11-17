@@ -14,7 +14,7 @@
     "endereco": "",
     "mensagemPedido": "Olá! Gostaria de fazer este pedido pelo catálogo Laços VIP:",
     "rodapeTexto": "Acessórios que fazem parte dos seus melhores momentos.",
-    "urlSite": "https://lacos-vip.pages.dev",
+    "urlSite": "https://lacos-vip.umcarabrasileiroservidor.workers.dev",
     "repositorio": "umcarabrasileiroservidor-jpg/lacos-vip"
   },
   "categorias": [
