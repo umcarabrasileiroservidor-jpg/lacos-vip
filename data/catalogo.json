@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-17T22:25:51.293Z",
+  "atualizadoEm": "2026-11-17T22:27:07.893Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -94,7 +94,7 @@
       ],
       "visivel": true,
       "destaque": false,
-      "novidade": false,
+      "novidade": true,
       "esgotado": false,
       "somenteCampanha": false,
       "criadoEm": "2026-11-17T00:00:00.000Z"
@@ -1135,7 +1135,8 @@
         "limite": 12,
         "produtos": [
           "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
-          "produto-271a3436-cc12-49de-8d66-b6547c6e6b47"
+          "produto-271a3436-cc12-49de-8d66-b6547c6e6b47",
+          "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b"
         ]
       },
       {
@@ -1176,7 +1177,7 @@
       "id": "natal",
       "nome": "Natal",
       "tema": "natal",
-      "estado": "desligada",
+      "estado": "ligada",
       "inicio": "2026-12-01",
       "fim": "2026-12-25",
       "titulo": "Especial de Natal",
@@ -1206,7 +1207,7 @@
       "id": "reveillon",
       "nome": "Réveillon",
       "tema": "reveillon",
-      "estado": "desligada",
+      "estado": "ligada",
       "inicio": "2026-12-26",
       "fim": "2027-01-01",
       "titulo": "Coleção Réveillon",
