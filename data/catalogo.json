@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-17T22:23:17.269Z",
+  "atualizadoEm": "2026-11-17T22:25:51.293Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -94,7 +94,7 @@
       ],
       "visivel": true,
       "destaque": false,
-      "novidade": true,
+      "novidade": false,
       "esgotado": false,
       "somenteCampanha": false,
       "criadoEm": "2026-11-17T00:00:00.000Z"
@@ -1134,7 +1134,6 @@
         "subtitulo": "Acabou de chegar",
         "limite": 12,
         "produtos": [
-          "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b",
           "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
           "produto-271a3436-cc12-49de-8d66-b6547c6e6b47"
         ]
