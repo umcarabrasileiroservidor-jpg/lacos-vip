@@ -498,7 +498,7 @@ function telaCampanha(id) {
   <div class="cartao"><h2>Produtos da campanha</h2><p class="ajuda">Aparecem em destaque na página inicial enquanto a campanha estiver no ar, sem esconder os outros produtos.</p>
     ${gerenciadorLista(A, { vazio: 'Nenhum produto ainda. Cadastre os produtos em Produtos e adicione aqui.', mostrarSoCampanha: true })}
   </div>
-  <div class="cartao"><h2>Música</h2><p class="ajuda">Nunca toca sozinha: aparece um botão para o cliente ligar, com controle de volume.</p>
+  <div class="cartao"><h2>Música</h2><p class="ajuda">Toca sozinha enquanto o cliente está na área desta campanha (banner ou produtos) e troca de música quando ele rola até outra campanha. Pela regra dos navegadores, o som só começa depois do primeiro toque do cliente na página. O cliente sempre tem um botão para silenciar e ajustar o volume.</p>
     ${sw(A, 'musica.ativa', 'Oferecer música no site', m.ativa, '', true)}
     ${m.ativa ? `<div class="opcoes-estado" style="grid-template-columns:1fr 1fr">
       <label class="opcao"><input type="radio" name="fonte-${c.id}" value="sintetizada" data-alvo="${A}" data-campo="musica.fonte" data-rerender ${m.fonte !== 'arquivo' ? 'checked' : ''}><span><b>Música da loja</b><small>${nomeMusica}</small></span></label>

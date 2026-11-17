@@ -77,7 +77,8 @@ Em cada campanha você escolhe os **produtos** (que aparecem numa área especial
 - **“Só aparece durante a campanha”:** marque isso nos produtos de Natal. Eles somem sozinhos quando o Natal acaba e voltam no ano seguinte, sem você apagar nada.
 - **Forçar aparência normal:** desliga todas as decorações de uma vez.
 - **Ver prévia no site:** mostra como a campanha fica, sem ligá-la para os clientes.
-- **Música:** nunca toca sozinha. O cliente aperta o botão e controla o volume. A do Natal é *Jingle Bells* (melodia de 1857, de domínio público) numa versão sintetizada pelo próprio site. A do Réveillon é uma trilha original. Você também pode enviar o seu MP3, desde que tenha licença para usá-lo.
+- **Música:** toca sozinha enquanto o cliente está na área da campanha e troca quando ele rola até outra campanha (Natal → Réveillon). Ela para quando o cliente sai das áreas de campanha. Pela regra dos navegadores, o som começa no primeiro toque do cliente na página. O cliente sempre pode silenciar e ajustar o volume.
+- **Duas campanhas ao mesmo tempo:** cada uma aparece no seu próprio bloco, com cores, banner e produtos próprios. O topo do site usa a de maior prioridade (a que está mais acima na lista de Campanhas). A do Natal é *Jingle Bells* (melodia de 1857, de domínio público) numa versão sintetizada pelo próprio site. A do Réveillon é uma trilha original. Você também pode enviar o seu MP3, desde que tenha licença para usá-lo.
 
 **Fluxo sugerido para o fim de ano:**
 1. Cadastre os produtos natalinos (marque a campanha **Natal** e **“Só aparece durante a campanha”**).

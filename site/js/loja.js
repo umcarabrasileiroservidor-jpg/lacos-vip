@@ -56,15 +56,18 @@ function aplicarCampanha() {
   if (previa && ativas[0]) avisar(`Prévia da campanha “${ativas[0].nome}” — só você está vendo`);
   const c = ativas[0];
   if (c && c.tema !== 'padrao') {
-    if (c.musica?.ativa) import('./musica.js').then((m) => m.montarControle($('[data-musica]'), c, BASE));
     if (c.efeitos?.particulas && !matchMedia('(prefers-reduced-motion: reduce)').matches) import('./efeitos.js').then((m) => m.iniciar($('[data-efeitos]'), c.tema));
-    if (c.tema === 'reveillon') contagem();
   }
+  if (ativas.some((x) => x.tema === 'reveillon')) contagem();
+  // música: toca sozinha na área de cada campanha (começa no 1º toque do cliente — regra dos navegadores)
+  const comMusica = ativas.filter((x) => x.musica?.ativa);
+  if (comMusica.length && $('[data-campanha]')) import('./musica.js').then((m) => m.iniciarMusicaPorArea($('[data-musica]'), comMusica, BASE));
 }
 
 function contagem() {
-  const el = $('[data-contagem]');
-  if (!el) return;
+  const els = $$('[data-contagem]');
+  if (!els.length) return;
+  const el = { set textContent(t) { els.forEach((e) => { e.textContent = t; }); } };
   const ano = new Date().getMonth() === 0 ? new Date().getFullYear() : new Date().getFullYear() + 1;
   const alvo = new Date(`${ano}-01-01T00:00:00-03:00`).getTime();
   const tic = () => {

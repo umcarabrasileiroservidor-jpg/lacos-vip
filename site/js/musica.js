@@ -1,4 +1,5 @@
-// Música das campanhas — nunca toca sozinha: o cliente aperta o botão.
+// Música das campanhas — toca na área de cada campanha e troca conforme o cliente rola a página.
+// Os navegadores só liberam som depois do primeiro toque/clique do cliente na página.
 // Natal: "Jingle Bells" (melodia de James Lord Pierpont, 1857, domínio público),
 //        interpretação própria sintetizada no navegador (sem gravação de terceiros).
 // Réveillon: composição original desta loja, também sintetizada.
@@ -38,49 +39,64 @@ const VIRADA = {
   brilhos: true,
 };
 
+// Um único "motor" de áudio para a página inteira (exigência do iPhone para tocar depois do 1º toque)
+const motor = { ctx: null, saida: null };
+function prepararMotor() {
+  if (!motor.ctx) {
+    motor.ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const comp = motor.ctx.createDynamicsCompressor();
+    motor.saida = motor.ctx.createGain();
+    motor.saida.gain.value = 1;
+    motor.saida.connect(comp).connect(motor.ctx.destination);
+  }
+  if (motor.ctx.state !== 'running') motor.ctx.resume();
+  return motor;
+}
+
 class Sintetizador {
-  constructor(peca) { this.peca = peca; this.ctx = null; this.tocando = false; this.volume = 0.4; }
+  constructor(peca) { this.peca = peca; this.tocando = false; this.volume = 0.4; }
   iniciar() {
-    if (!this.ctx) {
-      this.ctx = new (window.AudioContext || window.webkitAudioContext)();
-      this.mestre = this.ctx.createGain();
-      this.comp = this.ctx.createDynamicsCompressor();
-      this.mestre.connect(this.comp).connect(this.ctx.destination);
-      this.eco = this.ctx.createDelay(); this.eco.delayTime.value = 0.28;
-      const re = this.ctx.createGain(); re.gain.value = 0.22;
+    const { ctx, saida } = prepararMotor();
+    this.ctx = ctx;
+    if (!this.mestre) {
+      this.mestre = ctx.createGain(); this.mestre.gain.value = 0; this.mestre.connect(saida);
+      this.eco = ctx.createDelay(); this.eco.delayTime.value = 0.28;
+      const re = ctx.createGain(); re.gain.value = 0.22;
       this.eco.connect(re).connect(this.eco); re.connect(this.mestre);
-      this.ruido = this.ctx.createBuffer(1, this.ctx.sampleRate * 0.2, this.ctx.sampleRate);
+      this.ruido = ctx.createBuffer(1, ctx.sampleRate * 0.2, ctx.sampleRate);
       const d = this.ruido.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
     }
-    this.ctx.resume();
-    this.mestre.gain.cancelScheduledValues(this.ctx.currentTime);
-    this.mestre.gain.setTargetAtTime(this.volume, this.ctx.currentTime, 0.2);
+    this.mestre.gain.cancelScheduledValues(ctx.currentTime);
+    this.mestre.gain.setTargetAtTime(this.volume, ctx.currentTime, 0.6); // entra suave
+    if (this.tocando) return Promise.resolve();
     this.tocando = true;
-    this.proximo = this.ctx.currentTime + 0.1;
+    this.proximo = ctx.currentTime + 0.1;
     this.i = 0; this.tempo = 0;
+    clearInterval(this.timer);
     this.agendar();
     this.timer = setInterval(() => this.agendar(), 120);
+    return Promise.resolve();
   }
   parar() {
+    if (!this.ctx || !this.tocando) return;
     this.tocando = false;
-    clearInterval(this.timer);
-    if (this.ctx) { this.mestre.gain.setTargetAtTime(0, this.ctx.currentTime, 0.15); setTimeout(() => !this.tocando && this.ctx.suspend(), 900); }
+    this.mestre.gain.cancelScheduledValues(this.ctx.currentTime);
+    this.mestre.gain.setTargetAtTime(0, this.ctx.currentTime, 0.4); // sai suave
+    const t = this.timer;
+    setTimeout(() => { if (!this.tocando) clearInterval(t); }, 1500);
   }
   definirVolume(v) { this.volume = v; if (this.ctx && this.tocando) this.mestre.gain.setTargetAtTime(v, this.ctx.currentTime, 0.1); }
   agendar() {
+    if (!this.tocando) return;
     const p = this.peca, seg = 60 / p.bpm;
     while (this.proximo < this.ctx.currentTime + 0.5) {
       const [nota, dur] = p.melodia[this.i];
-      // acompanhamento no início de cada compasso
-      if (this.tempo % p.compasso === 0) {
-        const c = p.acordes[Math.floor(this.tempo / p.compasso) % p.acordes.length];
-        this.acompanhar(c, this.proximo, seg);
-      }
+      if (this.tempo % p.compasso === 0) this.acompanhar(p.acordes[Math.floor(this.tempo / p.compasso) % p.acordes.length], this.proximo, seg);
       this.sino(N[nota], this.proximo, dur * seg);
       this.proximo += dur * seg;
       this.tempo += dur;
       this.i++;
-      if (this.i >= p.melodia.length) { this.i = 0; this.tempo = 0; this.proximo += seg * p.compasso; }
+      if (this.i >= p.melodia.length) { this.i = 0; this.tempo = 0; this.proximo += seg * p.compasso; } // repete sem parar
     }
   }
   sino(f, t, dur) {
@@ -97,7 +113,7 @@ class Sintetizador {
   acompanhar(acorde, t, seg) {
     const p = this.peca, c = this.ctx, compasso = seg * p.compasso;
     (p.baixo[acorde] || []).forEach((n, k) => {
-      const inicio = t + k * (compasso / (p.baixo[acorde].length));
+      const inicio = t + k * (compasso / p.baixo[acorde].length);
       const o = c.createOscillator(), g = c.createGain();
       o.type = 'triangle'; o.frequency.value = N[n];
       g.gain.setValueAtTime(0.0001, inicio); g.gain.exponentialRampToValueAtTime(0.28, inicio + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, inicio + seg * 1.6);
@@ -127,10 +143,18 @@ class Sintetizador {
 }
 
 class Arquivo {
-  constructor(url) { this.el = new Audio(url); this.el.loop = true; this.el.preload = 'none'; this.volume = 0.4; }
-  iniciar() { this.el.volume = this.volume; return this.el.play(); }
-  parar() { this.el.pause(); }
-  definirVolume(v) { this.volume = v; this.el.volume = v; }
+  constructor(url) { this.el = new Audio(url); this.el.loop = true; this.el.preload = 'none'; this.volume = 0.4; this.alvo = 0; }
+  desbloquear() { const v = this.el.volume; this.el.volume = 0; this.el.play().then(() => { if (!this.tocando) this.el.pause(); this.el.volume = v; }).catch(() => {}); }
+  iniciar() { this.tocando = true; this.fade(this.volume); return this.el.play(); }
+  parar() { this.tocando = false; this.fade(0, () => this.el.pause()); }
+  fade(alvo, fim) {
+    clearInterval(this.t);
+    this.t = setInterval(() => {
+      const v = this.el.volume + Math.sign(alvo - this.el.volume) * 0.04;
+      if (Math.abs(alvo - this.el.volume) <= 0.04) { this.el.volume = alvo; clearInterval(this.t); fim?.(); } else this.el.volume = Math.min(1, Math.max(0, v));
+    }, 50);
+  }
+  definirVolume(v) { this.volume = v; if (this.tocando) this.el.volume = v; }
 }
 
 export function criarPlayer(campanha, base) {
@@ -139,25 +163,76 @@ export function criarPlayer(campanha, base) {
   return new Sintetizador(campanha.tema === 'reveillon' ? VIRADA : JINGLE);
 }
 
-export function montarControle(el, campanha, base) {
+/**
+ * Toca a música de cada campanha enquanto o cliente está na área dela
+ * (banner do topo ou bloco de produtos) e troca suavemente ao rolar a página.
+ */
+export function iniciarMusicaPorArea(el, campanhas, base) {
   if (!el || el.dataset.pronto) return;
   el.dataset.pronto = '1';
-  const player = criarPlayer(campanha, base);
-  let vol = Number(localStorage.getItem('lvip-volume'));
-  if (!Number.isFinite(vol) || vol <= 0 || vol > 1) vol = campanha.musica?.volume ?? 0.4;
-  player.definirVolume(vol);
-  const rotulo = campanha.tema === 'reveillon' ? 'Música de Réveillon' : 'Música de Natal';
-  el.innerHTML = `<button type="button" class="musica-botao" aria-pressed="false"><span class="notas" aria-hidden="true"><i></i><i></i><i></i></span><span data-rotulo>Ouvir ${rotulo.toLowerCase()}</span></button>
-  <label class="musica-volume"><svg class="i" aria-hidden="true"><use href="#i-som"></use></svg><span class="sr">Volume</span><input type="range" min="0" max="1" step="0.05" value="${vol}"></label>`;
-  el.hidden = false;
-  const botao = el.querySelector('button'), faixa = el.querySelector('input');
-  botao.addEventListener('click', async () => {
-    const ligar = botao.getAttribute('aria-pressed') !== 'true';
-    if (ligar) { try { await player.iniciar(); } catch { return; } } else player.parar();
-    botao.setAttribute('aria-pressed', String(ligar));
-    el.classList.toggle('tocando', ligar);
-    el.querySelector('[data-rotulo]').textContent = ligar ? 'Pausar música' : `Ouvir ${rotulo.toLowerCase()}`;
+  const porId = new Map(campanhas.map((c) => [c.id, c]));
+  const players = new Map();
+  const player = (id) => { if (!players.has(id)) { const p = criarPlayer(porId.get(id), base); p.definirVolume(volume); players.set(id, p); } return players.get(id); };
+  let volume = Number(localStorage.getItem('lvip-volume'));
+  if (!Number.isFinite(volume) || volume <= 0 || volume > 1) volume = campanhas[0].musica?.volume ?? 0.4;
+  let mudo = localStorage.getItem('lvip-musica-mudo') === '1';
+  let liberado = false, atual = null, area = null;
+
+  el.innerHTML = `<button type="button" class="musica-botao" aria-pressed="false"><span class="notas" aria-hidden="true"><i></i><i></i><i></i></span><span data-rotulo></span></button>
+  <label class="musica-volume"><svg class="i" aria-hidden="true"><use href="#i-som"></use></svg><span class="sr">Volume</span><input type="range" min="0" max="1" step="0.05" value="${volume}"></label>`;
+  const botao = el.querySelector('button'), rotulo = el.querySelector('[data-rotulo]'), faixa = el.querySelector('input');
+
+  function areaNaTela() {
+    const meio = innerHeight * 0.45;
+    for (const s of document.querySelectorAll('[data-campanha]')) {
+      const r = s.getBoundingClientRect();
+      if (r.top <= meio && r.bottom >= meio && porId.has(s.dataset.campanha)) return s.dataset.campanha;
+    }
+    return null;
+  }
+  function desenhar() {
+    el.hidden = !area;
+    if (!area) return;
+    const nome = porId.get(area).nome;
+    const tocando = !!atual;
+    el.classList.toggle('tocando', tocando);
+    el.classList.toggle('dica', !liberado && !mudo);
+    botao.setAttribute('aria-pressed', String(tocando));
+    botao.setAttribute('aria-label', tocando ? `Silenciar música de ${nome}` : `Ligar música de ${nome}`);
+    rotulo.textContent = mudo ? 'Música desligada · ligar' : tocando ? `Música de ${nome} ♪` : `Toque para ouvir a música de ${nome}`;
+  }
+  function atualizar() {
+    area = areaNaTela();
+    const alvo = mudo || !liberado || document.hidden ? null : area;
+    if (alvo !== atual) {
+      if (atual) player(atual).parar();
+      if (alvo) player(alvo).iniciar()?.catch?.(() => {});
+      atual = alvo;
+    }
+    desenhar();
+  }
+  function liberar() {
+    if (liberado) return;
+    liberado = true;
+    try { prepararMotor(); } catch { /* sem Web Audio */ }
+    for (const c of campanhas) { const p = player(c.id); if (p instanceof Arquivo) p.desbloquear(); }
+    ['pointerdown', 'keydown', 'touchend'].forEach((t) => removeEventListener(t, liberar, true));
+    atualizar();
+  }
+  ['pointerdown', 'keydown', 'touchend'].forEach((t) => addEventListener(t, liberar, { capture: true, passive: true }));
+
+  botao.addEventListener('click', () => {
+    if (!liberado) { liberar(); if (!mudo) return; }
+    mudo = !!atual;
+    localStorage.setItem('lvip-musica-mudo', mudo ? '1' : '0');
+    atualizar();
   });
-  faixa.addEventListener('input', () => { player.definirVolume(Number(faixa.value)); localStorage.setItem('lvip-volume', faixa.value); });
-  document.addEventListener('visibilitychange', () => { if (document.hidden && el.classList.contains('tocando')) botao.click(); });
+  faixa.addEventListener('input', () => { volume = Number(faixa.value); players.forEach((p) => p.definirVolume(volume)); localStorage.setItem('lvip-volume', faixa.value); });
+  let pendente = false;
+  addEventListener('scroll', () => { if (pendente) return; pendente = true; requestAnimationFrame(() => { pendente = false; atualizar(); }); }, { passive: true });
+  addEventListener('resize', atualizar, { passive: true });
+  document.addEventListener('visibilitychange', atualizar);
+  atualizar();
+  el.estadoMusica = () => ({ liberado, mudo, atual, area });
+  return el.estadoMusica;
 }

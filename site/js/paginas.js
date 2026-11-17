@@ -40,7 +40,7 @@ export function renderHero(dados, ctx) {
   const c = ativas[0];
   if (c && c.tema !== 'padrao') {
     const b = c.banner || {};
-    return `<section class="hero hero-campanha hero-${esc(c.tema)}" aria-label="${esc(c.titulo)}">
+    return `<section class="hero hero-campanha hero-${esc(c.tema)}" aria-label="${esc(c.titulo)}" data-campanha="${esc(c.id)}">
   ${decoracao[c.tema] || ''}
   <div class="hero-texto">
     <p class="sobretitulo">${esc(c.nome)}</p>
@@ -114,14 +114,19 @@ export function renderSecoes(dados, ctx) {
   for (const s of dados.inicio.secoes) {
     if (!s.ativo) continue;
     if (s.tipo === 'campanha') {
-      for (const c of ativas) {
+      ativas.forEach((c, i) => {
         const lista = produtosDaCampanha(dados, c);
-        if (!lista.length) continue;
-        html.push(`<section class="secao secao-campanha tema-${esc(c.tema)}" id="campanha" data-campanha="${esc(c.id)}">
-  ${cabecalhoSecao(c.titulo || c.nome, c.subtitulo, `<span class="contador">${lista.length} ${lista.length === 1 ? 'produto' : 'produtos'}</span>`)}
-  <div class="grade grade-campanha">${lista.map((p) => cartaoProduto(p, ctx)).join('')}</div>
+        const b = c.banner || {};
+        const tema = c.tema !== 'padrao' ? c.tema : 'padrao';
+        // a 1ª campanha já tem o banner grande no topo; as outras ganham o banner dentro do próprio bloco
+        const cabeca = i === 0
+          ? `<div class="camp-cabeca">${decoracao[tema] || ''}<div class="camp-cabeca-texto"><p class="sobretitulo">${esc(c.subtitulo || c.nome)}</p><h2>${esc(c.titulo || c.nome)}</h2></div><span class="contador">${lista.length} ${lista.length === 1 ? 'produto' : 'produtos'}</span></div>`
+          : `<div class="camp-cabeca camp-cabeca-grande">${decoracao[tema] || ''}<div class="camp-cabeca-texto"><p class="sobretitulo">${esc(c.nome)}</p><h2>${esc(b.titulo || c.titulo || c.nome)}</h2>${b.texto ? `<p>${esc(b.texto)}</p>` : ''}${c.subtitulo ? `<p class="camp-sub">${esc(c.subtitulo)}</p>` : ''}${tema === 'reveillon' ? '<p class="contagem" data-contagem aria-live="off"></p>' : ''}</div>${b.imagem ? `<img class="camp-img" src="${urlFoto(ctx.base, b.imagem, 800)}" alt="" loading="lazy">` : ''}</div>`;
+        html.push(`<section class="secao secao-campanha tema-${esc(tema)}" id="${i === 0 ? 'campanha' : `campanha-${esc(c.id)}`}" data-campanha="${esc(c.id)}">
+  ${cabeca}
+  ${lista.length ? `<div class="grade grade-campanha">${lista.map((p) => cartaoProduto(p, ctx)).join('')}</div>` : '<p class="vazio">Novidades desta coleção chegando em breve.</p>'}
 </section>`);
-      }
+      });
     } else if (s.tipo === 'banners') {
       const bs = (dados.inicio.banners || []).filter((b) => b.ativo && b.imagem);
       if (!bs.length) continue;
