@@ -1,0 +1,1260 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-11-04T19:36:52.660Z",
+  "loja": {
+    "nome": "Laços VIP",
+    "slogan": "Pequenos detalhes. Grandes encantos.",
+    "descricao": "Acessórios femininos no atacado: laços, tiaras, kits, parzinhos, faixinhas e muito mais. Pedido fácil pelo WhatsApp.",
+    "faixaTopo": "Acessórios femininos",
+    "whatsapp": "558195723033",
+    "instagram": "lacosvip._",
+    "pedidoMinimo": 150,
+    "bloquearAbaixoDoMinimo": false,
+    "atendimento": "",
+    "endereco": "",
+    "mensagemPedido": "Olá! Gostaria de fazer este pedido pelo catálogo Laços VIP:",
+    "rodapeTexto": "Acessórios que fazem parte dos seus melhores momentos.",
+    "urlSite": ""
+  },
+  "categorias": [
+    {
+      "id": "lacos",
+      "nome": "Laços",
+      "visivel": true
+    },
+    {
+      "id": "kits",
+      "nome": "Kits",
+      "visivel": true
+    },
+    {
+      "id": "tiaras",
+      "nome": "Tiaras",
+      "visivel": true
+    },
+    {
+      "id": "parzinhos",
+      "nome": "Parzinhos",
+      "visivel": true
+    },
+    {
+      "id": "faixinhas",
+      "nome": "Faixinhas",
+      "visivel": true
+    },
+    {
+      "id": "piranhas",
+      "nome": "Piranhas",
+      "visivel": true
+    },
+    {
+      "id": "tic-tacs",
+      "nome": "Tic-tacs",
+      "visivel": true
+    },
+    {
+      "id": "outros",
+      "nome": "Outros",
+      "visivel": true
+    }
+  ],
+  "produtos": [
+    {
+      "id": "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b",
+      "ref": "001",
+      "nome": "Laço Luxo",
+      "slug": "laco-luxo",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p001-1-74e8cf",
+          "w": 4032,
+          "h": 3024,
+          "ext": "webp",
+          "original": "p001-1-74e8cf.jpg"
+        },
+        {
+          "id": "p001-2-fe8f3b",
+          "w": 3024,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p001-2-fe8f3b.jpg"
+        },
+        {
+          "id": "p001-3-a7cc21",
+          "w": 2607,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p001-3-a7cc21.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
+      "ref": "002",
+      "nome": "Laço Encanto",
+      "slug": "laco-encanto",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p002-1-d2ba2f",
+          "w": 4032,
+          "h": 3024,
+          "ext": "webp",
+          "original": "p002-1-d2ba2f.jpg"
+        },
+        {
+          "id": "p002-2-0c9ff8",
+          "w": 3024,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p002-2-0c9ff8.jpg"
+        },
+        {
+          "id": "p002-3-1f5be2",
+          "w": 3024,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p002-3-1f5be2.jpg"
+        },
+        {
+          "id": "p002-4-961cea",
+          "w": 3024,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p002-4-961cea.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-271a3436-cc12-49de-8d66-b6547c6e6b47",
+      "ref": "003",
+      "nome": "Laço Encanto Estrelado",
+      "slug": "laco-encanto-estrelado",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p003-1-44b28d",
+          "w": 3024,
+          "h": 4032,
+          "ext": "webp",
+          "original": "p003-1-44b28d.jpg"
+        },
+        {
+          "id": "p003-2-84b239",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p003-2-84b239.jpg"
+        },
+        {
+          "id": "p003-3-ccb275",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p003-3-ccb275.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-1",
+      "ref": "004",
+      "nome": "Kit laço com óculos",
+      "slug": "kit-laco-com-oculos",
+      "descricao": "",
+      "preco": 20.0,
+      "unidade": "3 kits",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p004-1-1e1356",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p004-1-1e1356.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-6",
+      "ref": "005",
+      "nome": "Kit Piranha",
+      "slug": "kit-piranha",
+      "descricao": "",
+      "preco": 6.0,
+      "unidade": "kit com 3",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p005-1-eaa56f",
+          "w": 1167,
+          "h": 1280,
+          "ext": "webp",
+          "original": "p005-1-eaa56f.jpg"
+        },
+        {
+          "id": "p005-2-b98134",
+          "w": 1045,
+          "h": 1008,
+          "ext": "webp",
+          "original": "p005-2-b98134.jpg"
+        },
+        {
+          "id": "p005-3-ecd3f9",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p005-3-ecd3f9.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-34",
+      "ref": "006",
+      "nome": "Conjuntinho Estrela",
+      "slug": "conjuntinho-estrela",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "kit",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p006-1-065a5e",
+          "w": 1400,
+          "h": 933,
+          "ext": "webp",
+          "original": "p006-1-065a5e.jpg"
+        },
+        {
+          "id": "p006-2-c4f61a",
+          "w": 1400,
+          "h": 933,
+          "ext": "webp",
+          "original": "p006-2-c4f61a.jpg"
+        },
+        {
+          "id": "p006-3-2a983f",
+          "w": 1400,
+          "h": 933,
+          "ext": "webp",
+          "original": "p006-3-2a983f.jpg"
+        },
+        {
+          "id": "p006-4-58755d",
+          "w": 1400,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p006-4-58755d.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-1789521116756",
+      "ref": "007",
+      "nome": "KIT borboleta",
+      "slug": "kit-borboleta",
+      "descricao": "",
+      "preco": 6.0,
+      "unidade": "kit",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p007-1-1f603b",
+          "w": 944,
+          "h": 1128,
+          "ext": "webp",
+          "original": "p007-1-1f603b.jpg"
+        },
+        {
+          "id": "p007-2-a84057",
+          "w": 896,
+          "h": 1181,
+          "ext": "webp",
+          "original": "p007-2-a84057.jpg"
+        },
+        {
+          "id": "p007-3-fcbdb5",
+          "w": 863,
+          "h": 1238,
+          "ext": "webp",
+          "original": "p007-3-fcbdb5.jpg"
+        },
+        {
+          "id": "p007-4-3a6051",
+          "w": 944,
+          "h": 1128,
+          "ext": "webp",
+          "original": "p007-4-3a6051.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-1789521411041",
+      "ref": "008",
+      "nome": "Kit Óculos + Lacinho + ataca",
+      "slug": "kit-oculos-lacinho-ataca",
+      "descricao": "",
+      "preco": 20.0,
+      "unidade": "3 kits",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p008-1-1bbf5c",
+          "w": 1400,
+          "h": 1050,
+          "ext": "webp",
+          "original": "p008-1-1bbf5c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-kit-oculos-lacinho-colar",
+      "ref": "009",
+      "nome": "Kit óculos Lacinho e colar",
+      "slug": "kit-oculos-lacinho-e-colar",
+      "descricao": "",
+      "preco": 9.0,
+      "unidade": "unidade",
+      "categoria": "kits",
+      "fotos": [
+        {
+          "id": "p009-1-5a467e",
+          "w": 1280,
+          "h": 960,
+          "ext": "webp",
+          "original": "p009-1-5a467e.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-25",
+      "ref": "010",
+      "nome": "Tiara pespontada",
+      "slug": "tiara-pespontada",
+      "descricao": "",
+      "preco": 4.0,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "p010-1-53c15a",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p010-1-53c15a.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-32",
+      "ref": "011",
+      "nome": "Tiara de pérola",
+      "slug": "tiara-de-perola",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "p011-1-fb50e2",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p011-1-fb50e2.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-1789520918443",
+      "ref": "012",
+      "nome": "Tiara de pompom",
+      "slug": "tiara-de-pompom",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "p012-1-b9bc20",
+          "w": 1145,
+          "h": 1374,
+          "ext": "webp",
+          "original": "p012-1-b9bc20.jpg"
+        },
+        {
+          "id": "p012-2-dae150",
+          "w": 1050,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p012-2-dae150.jpg"
+        },
+        {
+          "id": "p012-3-f2c082",
+          "w": 1254,
+          "h": 1254,
+          "ext": "webp",
+          "original": "p012-3-f2c082.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-1789522617131",
+      "ref": "013",
+      "nome": "Tiara Butique",
+      "slug": "tiara-butique",
+      "descricao": "",
+      "preco": 4.0,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "p013-1-5f130b",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p013-1-5f130b.jpg"
+        },
+        {
+          "id": "p013-2-85b0c4",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p013-2-85b0c4.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-7",
+      "ref": "014",
+      "nome": "Laço de ponta (G)",
+      "slug": "laco-de-ponta-g",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p014-1-cf8a02",
+          "w": 423,
+          "h": 752,
+          "ext": "webp",
+          "original": "p014-1-cf8a02.jpg"
+        },
+        {
+          "id": "p014-2-837959",
+          "w": 423,
+          "h": 752,
+          "ext": "webp",
+          "original": "p014-2-837959.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-8",
+      "ref": "015",
+      "nome": "Laço elegante (M)",
+      "slug": "laco-elegante-m",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p015-1-3f57a7",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p015-1-3f57a7.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-13",
+      "ref": "016",
+      "nome": "Laço butique (M)",
+      "slug": "laco-butique-m",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p016-1-9a02bd",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p016-1-9a02bd.jpg"
+        },
+        {
+          "id": "p016-2-194b91",
+          "w": 1050,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p016-2-194b91.jpg"
+        },
+        {
+          "id": "p016-3-99c035",
+          "w": 1050,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p016-3-99c035.jpg"
+        },
+        {
+          "id": "p016-4-6c802c",
+          "w": 1050,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p016-4-6c802c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-31",
+      "ref": "017",
+      "nome": "Laço voal pingo de luz - bico de pato (M)",
+      "slug": "laco-voal-pingo-de-luz-bico-de-pato-m",
+      "descricao": "",
+      "preco": 4.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p017-1-c45c86",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p017-1-c45c86.jpg"
+        },
+        {
+          "id": "p017-2-fb4802",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p017-2-fb4802.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": true,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-33",
+      "ref": "018",
+      "nome": "Laço veludo com ponto de luz PRATA",
+      "slug": "laco-veludo-com-ponto-de-luz-prata",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p018-1-2a2ad6",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p018-1-2a2ad6.jpg"
+        }
+      ],
+      "visivel": false,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-35",
+      "ref": "019",
+      "nome": "Laços veludo ponto de luz DOURADO",
+      "slug": "lacos-veludo-ponto-de-luz-dourado",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "p019-1-e29a02",
+          "w": 1156,
+          "h": 1360,
+          "ext": "webp",
+          "original": "p019-1-e29a02.jpg"
+        }
+      ],
+      "visivel": false,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-3",
+      "ref": "020",
+      "nome": "Parzinho de ponta",
+      "slug": "parzinho-de-ponta",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "par",
+      "categoria": "parzinhos",
+      "fotos": [
+        {
+          "id": "p020-1-591890",
+          "w": 896,
+          "h": 1195,
+          "ext": "webp",
+          "original": "p020-1-591890.jpg"
+        },
+        {
+          "id": "p020-2-0c6344",
+          "w": 976,
+          "h": 1094,
+          "ext": "webp",
+          "original": "p020-2-0c6344.png"
+        },
+        {
+          "id": "p020-3-e7422a",
+          "w": 1024,
+          "h": 1043,
+          "ext": "webp",
+          "original": "p020-3-e7422a.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-18",
+      "ref": "021",
+      "nome": "Parzinho pérola",
+      "slug": "parzinho-perola",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "par",
+      "categoria": "parzinhos",
+      "fotos": [
+        {
+          "id": "p021-1-5ff796",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p021-1-5ff796.jpg"
+        },
+        {
+          "id": "p021-2-c46383",
+          "w": 933,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p021-2-c46383.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-19",
+      "ref": "022",
+      "nome": "Parzinho liso",
+      "slug": "parzinho-liso",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "par",
+      "categoria": "parzinhos",
+      "fotos": [
+        {
+          "id": "p022-1-5bc101",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p022-1-5bc101.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-24",
+      "ref": "023",
+      "nome": "Parzinho ponta coração",
+      "slug": "parzinho-ponta-coracao",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "par",
+      "categoria": "parzinhos",
+      "fotos": [
+        {
+          "id": "p023-1-4086a4",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p023-1-4086a4.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-10",
+      "ref": "024",
+      "nome": "Faixinha de coração (M)",
+      "slug": "faixinha-de-coracao-m",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "faixinhas",
+      "fotos": [
+        {
+          "id": "p024-1-7dfebc",
+          "w": 933,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p024-1-7dfebc.jpg"
+        },
+        {
+          "id": "p024-2-4c718c",
+          "w": 933,
+          "h": 1400,
+          "ext": "webp",
+          "original": "p024-2-4c718c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-17",
+      "ref": "025",
+      "nome": "Faixinha RN (4 unidades)",
+      "slug": "faixinha-rn-4-unidades",
+      "descricao": "",
+      "preco": 10.0,
+      "unidade": "cartela com 4",
+      "categoria": "faixinhas",
+      "fotos": [
+        {
+          "id": "p025-1-3572e5",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p025-1-3572e5.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-20",
+      "ref": "026",
+      "nome": "Faixa RN pespontada (M)",
+      "slug": "faixa-rn-pespontada-m",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "faixinhas",
+      "fotos": [
+        {
+          "id": "p026-1-dd1c73",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p026-1-dd1c73.jpg"
+        },
+        {
+          "id": "p026-2-9bd7e9",
+          "w": 1400,
+          "h": 933,
+          "ext": "webp",
+          "original": "p026-2-9bd7e9.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-21",
+      "ref": "027",
+      "nome": "Faixinha RN (4 unidades)",
+      "slug": "faixinha-rn-4-unidades-027",
+      "descricao": "",
+      "preco": 10.0,
+      "unidade": "cartela com 4",
+      "categoria": "faixinhas",
+      "fotos": [
+        {
+          "id": "p027-1-443732",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p027-1-443732.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-22",
+      "ref": "028",
+      "nome": "Faixinha RN (4 unidades)",
+      "slug": "faixinha-rn-4-unidades-028",
+      "descricao": "",
+      "preco": 10.0,
+      "unidade": "cartela com 4",
+      "categoria": "faixinhas",
+      "fotos": [
+        {
+          "id": "p028-1-bf3d70",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p028-1-bf3d70.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-5",
+      "ref": "029",
+      "nome": "Piranha Flor",
+      "slug": "piranha-flor",
+      "descricao": "",
+      "preco": 4.0,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "p029-1-457e28",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p029-1-457e28.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-27",
+      "ref": "030",
+      "nome": "Tic-tac de estrela",
+      "slug": "tic-tac-de-estrela",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "cartela",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "p030-1-97ac33",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p030-1-97ac33.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-28",
+      "ref": "031",
+      "nome": "Tic-tac de estrela",
+      "slug": "tic-tac-de-estrela-031",
+      "descricao": "",
+      "preco": 5.0,
+      "unidade": "cartela",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "p031-1-2972f0",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p031-1-2972f0.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-29",
+      "ref": "032",
+      "nome": "Dúzia de tic-tac estrela",
+      "slug": "duzia-de-tic-tac-estrela",
+      "descricao": "",
+      "preco": 48.0,
+      "unidade": "dúzia",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "p032-1-8ddb66",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p032-1-8ddb66.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-30",
+      "ref": "033",
+      "nome": "Dúzia de tic-tac estrela",
+      "slug": "duzia-de-tic-tac-estrela-033",
+      "descricao": "",
+      "preco": 48.0,
+      "unidade": "dúzia",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "p033-1-b316ca",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p033-1-b316ca.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "id": "produto-12",
+      "ref": "034",
+      "nome": "Cartela de linguinha",
+      "slug": "cartela-de-linguinha",
+      "descricao": "",
+      "preco": 10.0,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "p034-1-2459e7",
+          "w": 405,
+          "h": 430,
+          "ext": "webp",
+          "original": "p034-1-2459e7.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-17T00:00:00.000Z"
+    }
+  ],
+  "lixeira": [],
+  "inicio": {
+    "hero": {
+      "ativo": true,
+      "selo": "Atacado especial",
+      "titulo": "Pequenos detalhes. Grandes encantos.",
+      "texto": "Laços, tiaras e acessórios para revender com carinho. Monte seu pedido e envie pelo WhatsApp.",
+      "botao": "Ver produtos",
+      "imagens": []
+    },
+    "banners": [],
+    "secoes": [
+      {
+        "tipo": "campanha",
+        "ativo": true
+      },
+      {
+        "tipo": "banners",
+        "ativo": true
+      },
+      {
+        "tipo": "novidades",
+        "ativo": true,
+        "titulo": "Novidades",
+        "subtitulo": "Acabou de chegar",
+        "limite": 12,
+        "produtos": [
+          "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b",
+          "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
+          "produto-271a3436-cc12-49de-8d66-b6547c6e6b47"
+        ]
+      },
+      {
+        "tipo": "destaques",
+        "ativo": true,
+        "titulo": "Nossos destaques",
+        "subtitulo": "Em evidência",
+        "limite": 12,
+        "produtos": [
+          "produto-31"
+        ]
+      },
+      {
+        "tipo": "categorias",
+        "ativo": true,
+        "titulo": "Compre por categoria",
+        "subtitulo": "Encontre rápido"
+      },
+      {
+        "tipo": "todos",
+        "ativo": true,
+        "titulo": "Todos os produtos",
+        "subtitulo": "Escolha seus favoritos"
+      },
+      {
+        "tipo": "comoComprar",
+        "ativo": true,
+        "titulo": "Como comprar",
+        "subtitulo": "Simples e rápido"
+      }
+    ]
+  },
+  "aparencia": {
+    "forcarNormal": false
+  },
+  "campanhas": [
+    {
+      "id": "natal",
+      "nome": "Natal",
+      "tema": "natal",
+      "estado": "desligada",
+      "inicio": "2026-12-01",
+      "fim": "2026-12-25",
+      "titulo": "Especial de Natal",
+      "subtitulo": "Encantos para a noite mais especial do ano",
+      "faixaTopo": "🎄 Especial de Natal • Atacado com pedido mínimo de R$ 150",
+      "banner": {
+        "titulo": "Natal Laços VIP",
+        "texto": "Laços, tiaras e kits natalinos para encantar suas clientes.",
+        "botao": "Ver coleção de Natal",
+        "imagem": null
+      },
+      "produtos": [],
+      "musica": {
+        "ativa": true,
+        "fonte": "sintetizada",
+        "arquivo": null,
+        "volume": 0.4
+      },
+      "efeitos": {
+        "particulas": true,
+        "luzes": true
+      }
+    },
+    {
+      "id": "reveillon",
+      "nome": "Réveillon",
+      "tema": "reveillon",
+      "estado": "desligada",
+      "inicio": "2026-12-26",
+      "fim": "2027-01-01",
+      "titulo": "Coleção Réveillon",
+      "subtitulo": "Brilho e elegância para a virada",
+      "faixaTopo": "✨ Coleção Réveillon • Brilhe na virada",
+      "banner": {
+        "titulo": "Brilhe na virada",
+        "texto": "Acessórios em branco e dourado para começar o ano com estilo.",
+        "botao": "Ver coleção Réveillon",
+        "imagem": null
+      },
+      "produtos": [],
+      "musica": {
+        "ativa": true,
+        "fonte": "sintetizada",
+        "arquivo": null,
+        "volume": 0.4
+      },
+      "efeitos": {
+        "particulas": true,
+        "luzes": true
+      }
+    },
+    {
+      "id": "tiara-maluca",
+      "nome": "Tiara Maluca",
+      "tema": "padrao",
+      "estado": "desligada",
+      "inicio": "",
+      "fim": "",
+      "titulo": "Tiara Maluca",
+      "subtitulo": "",
+      "faixaTopo": "",
+      "banner": {
+        "titulo": "Tiara Maluca",
+        "texto": "",
+        "botao": "Ver tiaras",
+        "imagem": null
+      },
+      "produtos": [],
+      "musica": {
+        "ativa": false,
+        "fonte": "sintetizada",
+        "arquivo": null,
+        "volume": 0.4
+      },
+      "efeitos": {
+        "particulas": false,
+        "luzes": false
+      }
+    }
+  ]
+}

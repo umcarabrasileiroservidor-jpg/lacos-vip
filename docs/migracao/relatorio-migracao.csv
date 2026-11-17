@@ -1,0 +1,35 @@
+REF;nome_antigo;nome_novo;preco_antigo;preco_novo;unidade;categoria;fotos_antigas;fotos_novas
+001;Laço luco;Laço Luxo;5,00 unidade;5.0;unidade;Laços;3;3
+002;Laço Encanto;Laço Encanto;5,00 unidade;5.0;unidade;Laços;4;4
+003;Laço Ecanto estrelado;Laço Encanto Estrelado;5,00 unidade;5.0;unidade;Laços;3;3
+004;Kit laço com óculos;Kit laço com óculos;3 KITS por 20;20.0;3 kits;Kits;1;1
+005;Kit Piranha;Kit Piranha;6,00 KIT com 3;6.0;kit com 3;Kits;3;3
+006;Conjuntinho Estrela;Conjuntinho Estrela;3,33 kit;3.33;kit;Kits;4;4
+007;KIT borboleta;KIT borboleta;6,00 O KIT;6.0;kit;Kits;4;4
+008;Kit Óculos + Lacinho + ataca;Kit Óculos + Lacinho + ataca;3 Kits por 20;20.0;3 kits;Kits;1;1
+009;Kit óculos Lacinho e colar;Kit óculos Lacinho e colar;9,00 unidade;9.0;unidade;Kits;1;1
+010;Tiara pespontada;Tiara pespontada;4,00 unidade;4.0;unidade;Tiaras;1;1
+011;Tiara de pérola;Tiara de pérola;3,33 unidade;3.33;unidade;Tiaras;1;1
+012;Tiara de pompom;Tiara de pompom;3,33;3.33;unidade;Tiaras;3;3
+013;Tiara Butique;Tiara Butique;4,00;4.0;unidade;Tiaras;2;2
+014;Laço de ponta (G);Laço de ponta (G);3,33 unidade;3.33;unidade;Laços;2;2
+015;Laço elegante (M);Laço elegante (M);3,33 unidade;3.33;unidade;Laços;1;1
+016;Laço butique (M);Laço butique (M);3,33;3.33;unidade;Laços;4;4
+017;Laço voal pingo de luz - bico de pato (M);Laço voal pingo de luz - bico de pato (M);4,00 unidade;4.0;unidade;Laços;2;2
+018;Laço veludo com ponto de luz PRATA;Laço veludo com ponto de luz PRATA;5,00 unidade;5.0;unidade;Laços;1;1
+019;Laços veludo ponto de luz DOURADO;Laços veludo ponto de luz DOURADO;5,00 unidade;5.0;unidade;Laços;1;1
+020;Parzinho de ponta;Parzinho de ponta;3,33 PAR;3.33;par;Parzinhos;3;3
+021;Parzinho pérola;Parzinho pérola;3,33 Par;3.33;par;Parzinhos;2;2
+022;Parzinho liso;Parzinho liso;3,33 Par;3.33;par;Parzinhos;1;1
+023;Parzinho ponta coração;Parzinho ponta coração;3,33 Par;3.33;par;Parzinhos;1;1
+024;Faixinha de coração (M);Faixinha de coração (M);3,33 unidade;3.33;unidade;Faixinhas;2;2
+025;Faixinha RN (4 unidades);Faixinha RN (4 unidades);10,00 Cartela com 4;10.0;cartela com 4;Faixinhas;1;1
+026;Faixa RN prespontada (M);Faixa RN pespontada (M);3,33 unidade;3.33;unidade;Faixinhas;2;2
+027;Faixinha RN (4 unidades);Faixinha RN (4 unidades);10,00 Cartela com 4;10.0;cartela com 4;Faixinhas;1;1
+028;Faixinha RN (4 unidades);Faixinha RN (4 unidades);10,00 Cartela com 4;10.0;cartela com 4;Faixinhas;1;1
+029;Piranha Flor;Piranha Flor;4,00 unidade;4.0;unidade;Piranhas;1;1
+030;Tic-tac de estrela;Tic-tac de estrela;5,00 Cartela;5.0;cartela;Tic-tacs;1;1
+031;Tic-tac de estrela;Tic-tac de estrela;5,00 Cartela;5.0;cartela;Tic-tacs;1;1
+032;Dúzia de tic-tac estrela;Dúzia de tic-tac estrela;48,00 DÚZIA;48.0;dúzia;Tic-tacs;1;1
+033;Dúzia de tic-tac estrela;Dúzia de tic-tac estrela;48,00 DÚZIA;48.0;dúzia;Tic-tacs;1;1
+034;Cartela de linguinha;Cartela de linguinha;10,00;10.0;unidade;Outros;1;1

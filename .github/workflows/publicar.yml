@@ -1,0 +1,41 @@
+# Publica o site no GitHub Pages sempre que algo muda (inclusive pelo painel).
+# Também roda uma vez por dia, às 00:05 de Brasília, para atualizar as campanhas programadas
+# no HTML que o Google lê (para os clientes, a troca já acontece na hora certa pelo navegador).
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "5 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Gerar o site
+        run: node scripts/build.mjs --base "${{ steps.pages.outputs.base_path }}/" --url "${{ steps.pages.outputs.base_url }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deploy
+        uses: actions/deploy-pages@v4
