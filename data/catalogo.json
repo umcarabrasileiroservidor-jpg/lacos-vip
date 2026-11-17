@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-04T19:36:52.660Z",
+  "atualizadoEm": "2026-11-17T22:23:17.269Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -66,7 +66,7 @@
       "nome": "Laço Luxo",
       "slug": "laco-luxo",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -105,7 +105,7 @@
       "nome": "Laço Encanto",
       "slug": "laco-encanto",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -151,7 +151,7 @@
       "nome": "Laço Encanto Estrelado",
       "slug": "laco-encanto-estrelado",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -190,7 +190,7 @@
       "nome": "Kit laço com óculos",
       "slug": "kit-laco-com-oculos",
       "descricao": "",
-      "preco": 20.0,
+      "preco": 20,
       "unidade": "3 kits",
       "categoria": "kits",
       "fotos": [
@@ -215,7 +215,7 @@
       "nome": "Kit Piranha",
       "slug": "kit-piranha",
       "descricao": "",
-      "preco": 6.0,
+      "preco": 6,
       "unidade": "kit com 3",
       "categoria": "kits",
       "fotos": [
@@ -300,7 +300,7 @@
       "nome": "KIT borboleta",
       "slug": "kit-borboleta",
       "descricao": "",
-      "preco": 6.0,
+      "preco": 6,
       "unidade": "kit",
       "categoria": "kits",
       "fotos": [
@@ -346,7 +346,7 @@
       "nome": "Kit Óculos + Lacinho + ataca",
       "slug": "kit-oculos-lacinho-ataca",
       "descricao": "",
-      "preco": 20.0,
+      "preco": 20,
       "unidade": "3 kits",
       "categoria": "kits",
       "fotos": [
@@ -371,7 +371,7 @@
       "nome": "Kit óculos Lacinho e colar",
       "slug": "kit-oculos-lacinho-e-colar",
       "descricao": "",
-      "preco": 9.0,
+      "preco": 9,
       "unidade": "unidade",
       "categoria": "kits",
       "fotos": [
@@ -396,7 +396,7 @@
       "nome": "Tiara pespontada",
       "slug": "tiara-pespontada",
       "descricao": "",
-      "preco": 4.0,
+      "preco": 4,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -485,7 +485,7 @@
       "nome": "Tiara Butique",
       "slug": "tiara-butique",
       "descricao": "",
-      "preco": 4.0,
+      "preco": 4,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -620,7 +620,7 @@
       "nome": "Laço voal pingo de luz - bico de pato (M)",
       "slug": "laco-voal-pingo-de-luz-bico-de-pato-m",
       "descricao": "",
-      "preco": 4.0,
+      "preco": 4,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -652,7 +652,7 @@
       "nome": "Laço veludo com ponto de luz PRATA",
       "slug": "laco-veludo-com-ponto-de-luz-prata",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -677,7 +677,7 @@
       "nome": "Laços veludo ponto de luz DOURADO",
       "slug": "lacos-veludo-ponto-de-luz-dourado",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
       "fotos": [
@@ -855,7 +855,7 @@
       "nome": "Faixinha RN (4 unidades)",
       "slug": "faixinha-rn-4-unidades",
       "descricao": "",
-      "preco": 10.0,
+      "preco": 10,
       "unidade": "cartela com 4",
       "categoria": "faixinhas",
       "fotos": [
@@ -912,7 +912,7 @@
       "nome": "Faixinha RN (4 unidades)",
       "slug": "faixinha-rn-4-unidades-027",
       "descricao": "",
-      "preco": 10.0,
+      "preco": 10,
       "unidade": "cartela com 4",
       "categoria": "faixinhas",
       "fotos": [
@@ -937,7 +937,7 @@
       "nome": "Faixinha RN (4 unidades)",
       "slug": "faixinha-rn-4-unidades-028",
       "descricao": "",
-      "preco": 10.0,
+      "preco": 10,
       "unidade": "cartela com 4",
       "categoria": "faixinhas",
       "fotos": [
@@ -962,7 +962,7 @@
       "nome": "Piranha Flor",
       "slug": "piranha-flor",
       "descricao": "",
-      "preco": 4.0,
+      "preco": 4,
       "unidade": "unidade",
       "categoria": "piranhas",
       "fotos": [
@@ -987,7 +987,7 @@
       "nome": "Tic-tac de estrela",
       "slug": "tic-tac-de-estrela",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "cartela",
       "categoria": "tic-tacs",
       "fotos": [
@@ -1012,7 +1012,7 @@
       "nome": "Tic-tac de estrela",
       "slug": "tic-tac-de-estrela-031",
       "descricao": "",
-      "preco": 5.0,
+      "preco": 5,
       "unidade": "cartela",
       "categoria": "tic-tacs",
       "fotos": [
@@ -1037,7 +1037,7 @@
       "nome": "Dúzia de tic-tac estrela",
       "slug": "duzia-de-tic-tac-estrela",
       "descricao": "",
-      "preco": 48.0,
+      "preco": 48,
       "unidade": "dúzia",
       "categoria": "tic-tacs",
       "fotos": [
@@ -1062,7 +1062,7 @@
       "nome": "Dúzia de tic-tac estrela",
       "slug": "duzia-de-tic-tac-estrela-033",
       "descricao": "",
-      "preco": 48.0,
+      "preco": 48,
       "unidade": "dúzia",
       "categoria": "tic-tacs",
       "fotos": [
@@ -1087,7 +1087,7 @@
       "nome": "Cartela de linguinha",
       "slug": "cartela-de-linguinha",
       "descricao": "",
-      "preco": 10.0,
+      "preco": 10,
       "unidade": "unidade",
       "categoria": "outros",
       "fotos": [
@@ -1189,7 +1189,9 @@
         "botao": "Ver coleção de Natal",
         "imagem": null
       },
-      "produtos": [],
+      "produtos": [
+        "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b"
+      ],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
@@ -1217,7 +1219,9 @@
         "botao": "Ver coleção Réveillon",
         "imagem": null
       },
-      "produtos": [],
+      "produtos": [
+        "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b"
+      ],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
