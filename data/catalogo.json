@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T15:51:32.934Z",
+  "atualizadoEm": "2026-11-18T15:51:48.840Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -1383,7 +1383,7 @@
       "nome": "Kit óculos Lacinho e colar",
       "slug": "kit-oculos-lacinho-e-colar",
       "descricao": "",
-      "preco": 9,
+      "preco": 8,
       "unidade": "unidade",
       "categoria": "kits",
       "fotos": [
