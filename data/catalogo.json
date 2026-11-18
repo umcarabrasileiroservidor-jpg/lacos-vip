@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T04:08:06.190Z",
+  "atualizadoEm": "2026-11-18T14:59:35.701Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,106 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76",
+      "ref": "069",
+      "nome": "Laço pontos brilhantes ",
+      "slug": "laco-pontos-brilhantes",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm8xok9-98410b42",
+          "w": 1101,
+          "h": 1792,
+          "ext": "jpg",
+          "original": "fmwm8xok9-98410b42.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T14:57:31.833Z"
+    },
+    {
+      "id": "produto-18dd34f3-3a5c-4e07-b3b2-8e62be3a3c11",
+      "ref": "068",
+      "nome": "Laço cordão perolado branco",
+      "slug": "laco-cordao-perolado-branco",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm8w5ey-e0acca8d",
+          "w": 999,
+          "h": 1792,
+          "ext": "jpg",
+          "original": "fmwm8w5ey-e0acca8d.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T14:56:53.795Z"
+    },
+    {
+      "id": "produto-4b17dd13-0e94-4aed-a158-a12b85df1623",
+      "ref": "067",
+      "nome": "Laço cordão perolado marfim",
+      "slug": "laco-cordao-perolado-marfim",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm8vdmy-e5cf8c21",
+          "w": 1051,
+          "h": 1792,
+          "ext": "jpg",
+          "original": "fmwm8vdmy-e5cf8c21.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T14:56:10.431Z"
+    },
+    {
+      "id": "produto-c7e6d6b2-094e-41cd-84c8-257507d794af",
+      "ref": "066",
+      "nome": "Laço cordão perolado vermelho ",
+      "slug": "laco-cordao-perolado-vermelho",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm8ubjl-0c3bc441",
+          "w": 910,
+          "h": 1792,
+          "ext": "jpg",
+          "original": "fmwm8ubjl-0c3bc441.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T14:28:25.413Z"
+    },
     {
       "id": "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08",
       "ref": "065",
@@ -168,7 +268,7 @@
     {
       "id": "produto-37f89007-6549-4a68-9958-a7d318ab65e0",
       "ref": "061",
-      "nome": "Tiaras Cristais Pequenos",
+      "nome": "Tiara Cristais Pequenos",
       "slug": "tiaras-cristais-pequenos",
       "descricao": "",
       "preco": 5,
@@ -224,22 +324,7 @@
       "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
-      "fotos": [
-        {
-          "id": "fmwll54la-b6fbdfdb",
-          "w": 960,
-          "h": 1280,
-          "ext": "webp",
-          "original": "fmwll54la-b6fbdfdb.jpg"
-        },
-        {
-          "id": "fmwll5hcm-a4be7c68",
-          "w": 1280,
-          "h": 960,
-          "ext": "webp",
-          "original": "fmwll5hcm-a4be7c68.jpg"
-        }
-      ],
+      "fotos": [],
       "visivel": true,
       "destaque": false,
       "novidade": false,
@@ -256,15 +341,7 @@
       "preco": 6.66,
       "unidade": "unidade",
       "categoria": "tiaras",
-      "fotos": [
-        {
-          "id": "fmwll3kiw-e908a602",
-          "w": 960,
-          "h": 1280,
-          "ext": "webp",
-          "original": "fmwll3kiw-e908a602.jpg"
-        }
-      ],
+      "fotos": [],
       "visivel": true,
       "destaque": false,
       "novidade": false,
@@ -281,15 +358,7 @@
       "preco": 6.66,
       "unidade": "unidade",
       "categoria": "tiaras",
-      "fotos": [
-        {
-          "id": "fmwll2pp5-c1bfd7b3",
-          "w": 960,
-          "h": 1280,
-          "ext": "webp",
-          "original": "fmwll2pp5-c1bfd7b3.jpg"
-        }
-      ],
+      "fotos": [],
       "visivel": true,
       "destaque": false,
       "novidade": false,
@@ -2008,7 +2077,9 @@
       "produtos": [
         "produto-2a5136ff-7bb1-45e9-9039-aed1eda35ca5",
         "produto-3a5088d5-73c6-4e8c-9604-b1ee8d794f53",
-        "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999"
+        "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999",
+        "produto-c7e6d6b2-094e-41cd-84c8-257507d794af",
+        "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76"
       ],
       "musica": {
         "ativa": true,
@@ -2037,7 +2108,10 @@
         "botao": "Ver coleção Réveillon",
         "imagem": null
       },
-      "produtos": [],
+      "produtos": [
+        "produto-4b17dd13-0e94-4aed-a158-a12b85df1623",
+        "produto-18dd34f3-3a5c-4e07-b3b2-8e62be3a3c11"
+      ],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
