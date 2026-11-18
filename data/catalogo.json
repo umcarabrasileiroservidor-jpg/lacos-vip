@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T03:43:32.160Z",
+  "atualizadoEm": "2026-11-18T04:06:16.802Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -66,13 +66,245 @@
   ],
   "produtos": [
     {
+      "id": "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08",
+      "ref": "065",
+      "nome": "Piranha Borboleta 4",
+      "slug": "piranha-borboleta-4",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlllxot-efd41a75",
+          "w": 1280,
+          "h": 583,
+          "ext": "webp",
+          "original": "fmwlllxot-efd41a75.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T04:04:43.392Z"
+    },
+    {
+      "id": "produto-19de95ff-a305-49ee-b380-b8fc23c9a7df",
+      "ref": "064",
+      "nome": "Piranha Borboleta 3",
+      "slug": "piranha-borboleta-3",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwllkr30-6a121b8c",
+          "w": 1280,
+          "h": 644,
+          "ext": "webp",
+          "original": "fmwllkr30-6a121b8c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T04:04:20.048Z"
+    },
+    {
+      "id": "produto-7c21e3e5-8bd8-4cda-baab-54f1c702cb69",
+      "ref": "063",
+      "nome": "Piranha Borboleta 2",
+      "slug": "piranha-borboleta-2",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwllkamm-1daedac1",
+          "w": 1184,
+          "h": 512,
+          "ext": "webp",
+          "original": "fmwllkamm-1daedac1.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T04:04:07.680Z"
+    },
+    {
+      "id": "produto-1867b718-cda4-4788-a724-c64707f5deb9",
+      "ref": "062",
+      "nome": "Piranha Borboleta 1",
+      "slug": "piranha-borboleta-1",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlljhok-9858cef1",
+          "w": 1280,
+          "h": 634,
+          "ext": "webp",
+          "original": "fmwlljhok-9858cef1.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:59:09.896Z"
+    },
+    {
+      "id": "produto-37f89007-6549-4a68-9958-a7d318ab65e0",
+      "ref": "061",
+      "nome": "Tiaras Cristais Pequenos",
+      "slug": "tiaras-cristais-pequenos",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwlldd8a-ce3ad65c",
+          "w": 1280,
+          "h": 960,
+          "ext": "webp",
+          "original": "fmwlldd8a-ce3ad65c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:58:16.262Z"
+    },
+    {
+      "id": "produto-c4b5d96f-0018-43ea-9724-686ed34ce966",
+      "ref": "060",
+      "nome": "Tiara Cristais Grandes",
+      "slug": "tiara-cristais-grandes",
+      "descricao": "",
+      "preco": 6.66,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwll7id4-57187dcd",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwll7id4-57187dcd.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:53:20.483Z"
+    },
+    {
+      "id": "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999",
+      "ref": "059",
+      "nome": "Laço Natal",
+      "slug": "laco-natal",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwll54la-b6fbdfdb",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwll54la-b6fbdfdb.jpg"
+        },
+        {
+          "id": "fmwll5hcm-a4be7c68",
+          "w": 1280,
+          "h": 960,
+          "ext": "webp",
+          "original": "fmwll5hcm-a4be7c68.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:51:19.440Z"
+    },
+    {
+      "id": "produto-3a5088d5-73c6-4e8c-9604-b1ee8d794f53",
+      "ref": "058",
+      "nome": "Tiara Natal 2 ",
+      "slug": "tiara-natal-2",
+      "descricao": "",
+      "preco": 6.66,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwll3kiw-e908a602",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwll3kiw-e908a602.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:50:54.332Z"
+    },
+    {
+      "id": "produto-2a5136ff-7bb1-45e9-9039-aed1eda35ca5",
+      "ref": "057",
+      "nome": "Tiara Natal 1 ",
+      "slug": "tiara-natal-1",
+      "descricao": "",
+      "preco": 6.66,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwll2pp5-c1bfd7b3",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwll2pp5-c1bfd7b3.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:49:56.987Z"
+    },
+    {
       "id": "produto-39d0b923-8931-451f-bc62-bf04f6e7aeb1",
       "ref": "056",
       "nome": "Piranha 5",
       "slug": "piranha-5",
       "descricao": "",
       "preco": 6,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "piranhas",
       "fotos": [
         {
@@ -97,7 +329,7 @@
       "slug": "piranha-4",
       "descricao": "",
       "preco": 6,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "piranhas",
       "fotos": [
         {
@@ -122,7 +354,7 @@
       "slug": "piranha-3",
       "descricao": "",
       "preco": 6,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "piranhas",
       "fotos": [
         {
@@ -147,7 +379,7 @@
       "slug": "piranha-2",
       "descricao": "",
       "preco": 6,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "piranhas",
       "fotos": [
         {
@@ -172,7 +404,7 @@
       "slug": "piranha-1",
       "descricao": "",
       "preco": 6,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "piranhas",
       "fotos": [
         {
@@ -447,7 +679,7 @@
       "slug": "clipes-7",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -472,7 +704,7 @@
       "slug": "clipes-6",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -497,7 +729,7 @@
       "slug": "clipes-5",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -509,7 +741,7 @@
         }
       ],
       "visivel": true,
-      "destaque": false,
+      "destaque": true,
       "novidade": true,
       "esgotado": false,
       "somenteCampanha": false,
@@ -522,7 +754,7 @@
       "slug": "clipes-4",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -547,7 +779,7 @@
       "slug": "clipes-3",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -572,7 +804,7 @@
       "slug": "clipes-2",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -597,7 +829,7 @@
       "slug": "clipes-1",
       "descricao": "",
       "preco": 7,
-      "unidade": "unidade",
+      "unidade": "kit",
       "categoria": "clipes",
       "fotos": [
         {
@@ -1713,7 +1945,13 @@
           "produto-cc9eaae7-d1c3-4d83-8462-8ed787073d05",
           "produto-edbc0eb6-d394-47cd-84dd-0b47c2acc51c",
           "produto-7a2ebeb5-7b4f-47bc-b706-ab2288d59f31",
-          "produto-39d0b923-8931-451f-bc62-bf04f6e7aeb1"
+          "produto-39d0b923-8931-451f-bc62-bf04f6e7aeb1",
+          "produto-c4b5d96f-0018-43ea-9724-686ed34ce966",
+          "produto-37f89007-6549-4a68-9958-a7d318ab65e0",
+          "produto-1867b718-cda4-4788-a724-c64707f5deb9",
+          "produto-7c21e3e5-8bd8-4cda-baab-54f1c702cb69",
+          "produto-19de95ff-a305-49ee-b380-b8fc23c9a7df",
+          "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08"
         ]
       },
       {
@@ -1723,7 +1961,8 @@
         "subtitulo": "Em evidência",
         "limite": 12,
         "produtos": [
-          "produto-31"
+          "produto-31",
+          "produto-6b4128c6-36ad-433c-81c4-c36b66725a61"
         ]
       },
       {
@@ -1766,7 +2005,11 @@
         "botao": "Ver coleção de Natal",
         "imagem": null
       },
-      "produtos": [],
+      "produtos": [
+        "produto-2a5136ff-7bb1-45e9-9039-aed1eda35ca5",
+        "produto-3a5088d5-73c6-4e8c-9604-b1ee8d794f53",
+        "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999"
+      ],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
