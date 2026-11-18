@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T04:06:16.802Z",
+  "atualizadoEm": "2026-11-18T04:08:06.190Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -1786,7 +1786,7 @@
           "original": "p030-1-97ac33.jpg"
         }
       ],
-      "visivel": true,
+      "visivel": false,
       "destaque": false,
       "novidade": false,
       "esgotado": false,
@@ -1799,7 +1799,7 @@
       "nome": "Tic-tac de estrela",
       "slug": "tic-tac-de-estrela-031",
       "descricao": "",
-      "preco": 5,
+      "preco": 3.33,
       "unidade": "cartela",
       "categoria": "tic-tacs",
       "fotos": [
@@ -1836,7 +1836,7 @@
           "original": "p032-1-8ddb66.jpg"
         }
       ],
-      "visivel": true,
+      "visivel": false,
       "destaque": false,
       "novidade": false,
       "esgotado": false,
@@ -1849,7 +1849,7 @@
       "nome": "Dúzia de tic-tac estrela",
       "slug": "duzia-de-tic-tac-estrela-033",
       "descricao": "",
-      "preco": 48,
+      "preco": 40,
       "unidade": "dúzia",
       "categoria": "tic-tacs",
       "fotos": [
