@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T14:59:35.701Z",
+  "atualizadoEm": "2026-11-18T15:05:16.386Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -324,7 +324,22 @@
       "preco": 5,
       "unidade": "unidade",
       "categoria": "lacos",
-      "fotos": [],
+      "fotos": [
+        {
+          "id": "fmwm9671w-41a10b6a",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwm9671w-41a10b6a.jpg"
+        },
+        {
+          "id": "fmwm96apa-737707f7",
+          "w": 2400,
+          "h": 1792,
+          "ext": "jpg",
+          "original": "fmwm96apa-737707f7.jpg"
+        }
+      ],
       "visivel": true,
       "destaque": false,
       "novidade": false,
@@ -341,7 +356,15 @@
       "preco": 6.66,
       "unidade": "unidade",
       "categoria": "tiaras",
-      "fotos": [],
+      "fotos": [
+        {
+          "id": "fmwm95uyz-a6c63779",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwm95uyz-a6c63779.jpg"
+        }
+      ],
       "visivel": true,
       "destaque": false,
       "novidade": false,
@@ -358,7 +381,15 @@
       "preco": 6.66,
       "unidade": "unidade",
       "categoria": "tiaras",
-      "fotos": [],
+      "fotos": [
+        {
+          "id": "fmwm95aqt-dddb4422",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwm95aqt-dddb4422.jpg"
+        }
+      ],
       "visivel": true,
       "destaque": false,
       "novidade": false,
