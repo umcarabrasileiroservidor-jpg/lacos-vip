@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T15:05:16.386Z",
+  "atualizadoEm": "2026-11-18T15:30:27.571Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,131 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-3121f8c3-fd45-4d43-ad16-4ed18e2bf16e",
+      "ref": "074",
+      "nome": "Laço tirinha branco",
+      "slug": "laco-tirinha-branco",
+      "descricao": "",
+      "preco": 4,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwma2le6-7c217ade",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwma2le6-7c217ade.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T15:29:55.170Z"
+    },
+    {
+      "id": "produto-01d875e4-0aa8-4e79-8a9c-0fcbf0405b3d",
+      "ref": "073",
+      "nome": "Laço festivo ",
+      "slug": "laco-festivo",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwma1jeu-cd49a146",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwma1jeu-cd49a146.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T15:29:10.399Z"
+    },
+    {
+      "id": "produto-df14cf33-8da9-4862-b6e7-91fa23d362d4",
+      "ref": "072",
+      "nome": "Laço tirinha com coração (branco)",
+      "slug": "laco-tirinha-com-coracao-branco",
+      "descricao": "",
+      "preco": 4,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwma0l43-16e5367c",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwma0l43-16e5367c.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T15:28:13.718Z"
+    },
+    {
+      "id": "produto-d349923d-ffe1-4fe6-a929-126c9bff8643",
+      "ref": "071",
+      "nome": "Laço tirinha com coração (rosa bebê)",
+      "slug": "laco-tirinha-com-coracao-rosa-bebe",
+      "descricao": "",
+      "preco": 4,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm9ytg1-69fcfe5a",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwm9ytg1-69fcfe5a.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T15:27:08.780Z"
+    },
+    {
+      "id": "produto-6f60c305-1aee-4d23-9bb6-1ff8dd651215",
+      "ref": "070",
+      "nome": "Laço tirinha com coração (vermelho)",
+      "slug": "laco-tirinha-com-coracao-vermelho",
+      "descricao": "",
+      "preco": 4,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwm9xra7-34e2bc4a",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwm9xra7-34e2bc4a.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T15:26:24.888Z"
+    },
     {
       "id": "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76",
       "ref": "069",
@@ -2051,7 +2176,8 @@
           "produto-1867b718-cda4-4788-a724-c64707f5deb9",
           "produto-7c21e3e5-8bd8-4cda-baab-54f1c702cb69",
           "produto-19de95ff-a305-49ee-b380-b8fc23c9a7df",
-          "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08"
+          "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08",
+          "produto-d349923d-ffe1-4fe6-a929-126c9bff8643"
         ]
       },
       {
@@ -2110,7 +2236,8 @@
         "produto-3a5088d5-73c6-4e8c-9604-b1ee8d794f53",
         "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999",
         "produto-c7e6d6b2-094e-41cd-84c8-257507d794af",
-        "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76"
+        "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76",
+        "produto-6f60c305-1aee-4d23-9bb6-1ff8dd651215"
       ],
       "musica": {
         "ativa": true,
@@ -2141,7 +2268,10 @@
       },
       "produtos": [
         "produto-4b17dd13-0e94-4aed-a158-a12b85df1623",
-        "produto-18dd34f3-3a5c-4e07-b3b2-8e62be3a3c11"
+        "produto-18dd34f3-3a5c-4e07-b3b2-8e62be3a3c11",
+        "produto-df14cf33-8da9-4862-b6e7-91fa23d362d4",
+        "produto-01d875e4-0aa8-4e79-8a9c-0fcbf0405b3d",
+        "produto-3121f8c3-fd45-4d43-ad16-4ed18e2bf16e"
       ],
       "musica": {
         "ativa": true,
