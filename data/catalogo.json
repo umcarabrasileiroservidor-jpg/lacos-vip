@@ -1919,7 +1919,7 @@
         "ativo": true,
         "titulo": "Novidades",
         "subtitulo": "Acabou de chegar",
-        "limite": 12,
+        "limite": 0,
         "produtos": [
           "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
           "produto-271a3436-cc12-49de-8d66-b6547c6e6b47",
@@ -1959,7 +1959,7 @@
         "ativo": true,
         "titulo": "Nossos destaques",
         "subtitulo": "Em evidência",
-        "limite": 12,
+        "limite": 0,
         "produtos": [
           "produto-31",
           "produto-6b4128c6-36ad-433c-81c4-c36b66725a61"

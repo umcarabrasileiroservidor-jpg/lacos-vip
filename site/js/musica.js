@@ -71,7 +71,7 @@ class Sintetizador {
     if (this.tocando) return Promise.resolve();
     this.tocando = true;
     this.proximo = ctx.currentTime + 0.1;
-    this.i = 0; this.tempo = 0;
+    if (this.i == null) { this.i = 0; this.tempo = 0; } // ao voltar, continua de onde parou
     clearInterval(this.timer);
     this.agendar();
     this.timer = setInterval(() => this.agendar(), 120);
@@ -182,12 +182,22 @@ export function iniciarMusicaPorArea(el, campanhas, base) {
   <label class="musica-volume"><svg class="i" aria-hidden="true"><use href="#i-som"></use></svg><span class="sr">Volume</span><input type="range" min="0" max="1" step="0.05" value="${volume}"></label>`;
   const botao = el.querySelector('button'), rotulo = el.querySelector('[data-rotulo]'), faixa = el.querySelector('input');
 
+  // Cada campanha ocupa da 1ª à última parte dela na página (topo + bloco de produtos),
+  // incluindo o espaço entre elas — assim a música não para nem recomeça ao passar de uma para outra.
   function areaNaTela() {
     const meio = innerHeight * 0.45;
+    const faixas = new Map();
     for (const s of document.querySelectorAll('[data-campanha]')) {
+      const id = s.dataset.campanha;
+      if (!porId.has(id)) continue;
       const r = s.getBoundingClientRect();
-      if (r.top <= meio && r.bottom >= meio && porId.has(s.dataset.campanha)) return s.dataset.campanha;
+      if (r.top <= meio && r.bottom >= meio) return id; // está exatamente sobre uma parte da campanha
+      const f = faixas.get(id) || { topo: Infinity, base: -Infinity };
+      faixas.set(id, { topo: Math.min(f.topo, r.top), base: Math.max(f.base, r.bottom) });
     }
+    // entre duas partes da mesma campanha (ex.: banner do topo e bloco de Natal)
+    if (atual && faixas.has(atual)) { const f = faixas.get(atual); if (f.topo <= meio && f.base >= meio) return atual; }
+    for (const [id, f] of faixas) if (f.topo <= meio && f.base >= meio) return id;
     return null;
   }
   function desenhar() {

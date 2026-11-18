@@ -117,7 +117,8 @@ export function ordenarDisponiveis(lista) {
 /** Produtos de uma seção (novidades/destaques) respeitando a ordem escolhida. */
 export function produtosDaSecao(dados, secao, ativas) {
   const mapa = new Map(dados.produtos.map((p) => [p.id, p]));
-  return (secao.produtos || []).map((id) => mapa.get(id)).filter((p) => p && produtoVisivel(p, ativas) && !p.esgotado).slice(0, secao.limite || 12);
+  const lista = (secao.produtos || []).map((id) => mapa.get(id)).filter((p) => p && produtoVisivel(p, ativas) && !p.esgotado);
+  return secao.limite > 0 ? lista.slice(0, secao.limite) : lista; // 0 ou vazio = todos
 }
 
 export function produtosDaCampanha(dados, c) {

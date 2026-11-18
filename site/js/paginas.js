@@ -141,8 +141,8 @@ export function renderSecoes(dados, ctx) {
       const lista = produtosDaSecao(dados, s, ativas);
       if (!lista.length) continue;
       html.push(`<section class="secao secao-${s.tipo}" id="${s.tipo}">
-  ${cabecalhoSecao(s.titulo, s.subtitulo)}
-  ${carrossel(lista, { ...ctx, eager: s.tipo === 'novidades' }, s.titulo)}
+  ${cabecalhoSecao(s.titulo, s.subtitulo, `<span class="contador">${lista.length} ${lista.length === 1 ? 'produto' : 'produtos'}</span>`)}
+  <div class="grade">${lista.map((p, i) => cartaoProduto(p, { ...ctx, eager: s.tipo === 'novidades' && i < 2 })).join('')}</div>
 </section>`);
     } else if (s.tipo === 'categorias') {
       const cats = dados.categorias.filter((c) => c.visivel).map((c) => {

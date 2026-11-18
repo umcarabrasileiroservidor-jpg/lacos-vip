@@ -429,7 +429,7 @@ function telaInicio() {
     ${secoes.map((s, i) => `<details class="dobra"><summary><span>${i + 1}. ${NOMES_SECAO[s.tipo] || s.tipo} ${s.ativo ? '' : '<small class="ajuda">(desligada)</small>'}</span></summary><div>
       ${sw(`secao:${s.tipo}`, 'ativo', 'Seção ligada', s.ativo, '', true)}
       ${'titulo' in s ? `<div class="grade-2">${campo(`secao:${s.tipo}`, 'titulo', 'Título', s.titulo)}${campo(`secao:${s.tipo}`, 'subtitulo', 'Texto pequeno acima do título', s.subtitulo)}</div>` : ''}
-      ${'limite' in s ? `<label class="campo" style="max-width:220px"><span>Quantidade máxima exibida</span><input type="number" min="1" max="40" data-alvo="secao:${s.tipo}" data-campo="limite" value="${s.limite}"></label>${gerenciadorLista(`secao:${s.tipo}`)}` : ''}
+      ${'limite' in s ? `<label class="campo" style="max-width:260px"><span>Quantidade máxima exibida</span><input type="number" min="0" max="200" data-alvo="secao:${s.tipo}" data-campo="limite" value="${s.limite || 0}"><small>0 = mostrar todos</small></label>${gerenciadorLista(`secao:${s.tipo}`)}` : ''}
       <div class="linha-botoes" style="margin-top:8px"><button class="btn btn-peq" data-acao="secao-mover" data-i="${i}" data-d="-1" ${i === 0 ? 'disabled' : ''}>↑ Subir seção</button><button class="btn btn-peq" data-acao="secao-mover" data-i="${i}" data-d="1" ${i === secoes.length - 1 ? 'disabled' : ''}>↓ Descer seção</button></div>
     </div></details>`).join('')}
   </div>` };
