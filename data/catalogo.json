@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-17T22:29:21.503Z",
+  "atualizadoEm": "2026-11-18T03:40:57.076Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -57,9 +57,564 @@
       "id": "outros",
       "nome": "Outros",
       "visivel": true
+    },
+    {
+      "id": "clipes",
+      "nome": "Clipes",
+      "visivel": true
     }
   ],
   "produtos": [
+    {
+      "id": "produto-39d0b923-8931-451f-bc62-bf04f6e7aeb1",
+      "ref": "056",
+      "nome": "Piranha 5",
+      "slug": "piranha-5",
+      "descricao": "",
+      "preco": 6,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlkpnmt-5d75c7ab",
+          "w": 792,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkpnmt-5d75c7ab.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:40:09.404Z"
+    },
+    {
+      "id": "produto-7a2ebeb5-7b4f-47bc-b706-ab2288d59f31",
+      "ref": "055",
+      "nome": "Piranha 4",
+      "slug": "piranha-4",
+      "descricao": "",
+      "preco": 6,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlkp76g-5c4dc6af",
+          "w": 798,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkp76g-5c4dc6af.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:39:37.883Z"
+    },
+    {
+      "id": "produto-edbc0eb6-d394-47cd-84dd-0b47c2acc51c",
+      "ref": "054",
+      "nome": "Piranha 3",
+      "slug": "piranha-3",
+      "descricao": "",
+      "preco": 6,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlkogv1-75da4cc0",
+          "w": 820,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkogv1-75da4cc0.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:38:57.588Z"
+    },
+    {
+      "id": "produto-cc9eaae7-d1c3-4d83-8462-8ed787073d05",
+      "ref": "053",
+      "nome": "Piranha 2 ",
+      "slug": "piranha-2",
+      "descricao": "",
+      "preco": 6,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlknie8-1331e103",
+          "w": 742,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlknie8-1331e103.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:38:30.760Z"
+    },
+    {
+      "id": "produto-71e29e63-dbe5-4b6b-a713-f952683e7fce",
+      "ref": "052",
+      "nome": "Piranha 1",
+      "slug": "piranha-1",
+      "descricao": "",
+      "preco": 6,
+      "unidade": "unidade",
+      "categoria": "piranhas",
+      "fotos": [
+        {
+          "id": "fmwlkn2mr-05b6b18e",
+          "w": 786,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkn2mr-05b6b18e.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:37:43.489Z"
+    },
+    {
+      "id": "produto-ddd840c7-44ce-4fde-918e-47dc65d151e5",
+      "ref": "051",
+      "nome": "Tiara Pérola 3",
+      "slug": "tiara-perola-3",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwlkl790-53b997f2",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkl790-53b997f2.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:36:39.262Z"
+    },
+    {
+      "id": "produto-27fecfb2-00eb-4d08-a572-d6cd3d264076",
+      "ref": "050",
+      "nome": "Tiara Pérola 1",
+      "slug": "tiara-perola-1",
+      "descricao": "",
+      "preco": 6.66,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwlkizrr-e254d73b",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkizrr-e254d73b.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:33:22.049Z"
+    },
+    {
+      "id": "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad",
+      "ref": "049",
+      "nome": "Tiara pérola  2",
+      "slug": "tiara-perola-2",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwlkkiyn-d42a792b",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlkkiyn-d42a792b.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:29:58.452Z"
+    },
+    {
+      "id": "produto-8ca63546-1215-4f4a-b30c-7310b1c35979",
+      "ref": "048",
+      "nome": "Presilha Banana Stras",
+      "slug": "presilha-banana-stras",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk9s2d-fe3a0110",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwlk9s2d-fe3a0110.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:27:57.735Z"
+    },
+    {
+      "id": "produto-8d7f51d1-5380-4406-9aa6-a54e69b65783",
+      "ref": "047",
+      "nome": "Xuxa Pelúcia",
+      "slug": "xuxa-pelucia",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk81ew-ed8c04bc",
+          "w": 1112,
+          "h": 933,
+          "ext": "webp",
+          "original": "fmwlk81ew-ed8c04bc.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:26:34.177Z"
+    },
+    {
+      "id": "produto-b10c4703-1655-4af3-b1a5-a3dcbeb4bf10",
+      "ref": "046",
+      "nome": "Turbante",
+      "slug": "turbante",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk7bbp-fe15abc5",
+          "w": 1118,
+          "h": 875,
+          "ext": "webp",
+          "original": "fmwlk7bbp-fe15abc5.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:25:48.747Z"
+    },
+    {
+      "id": "produto-dca72f9f-6f87-4455-bda3-809ca09e0289",
+      "ref": "045",
+      "nome": "Touca Nero",
+      "slug": "touca-nero",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk5tc2-bdf7a8ee",
+          "w": 542,
+          "h": 954,
+          "ext": "webp",
+          "original": "fmwlk5tc2-bdf7a8ee.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:23:23.036Z"
+    },
+    {
+      "id": "produto-8443e802-3ac0-47d6-8b10-8c5dbfb83b9f",
+      "ref": "044",
+      "nome": "Touca cetim",
+      "slug": "touca-cetim",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk33rm-bff10d04",
+          "w": 1027,
+          "h": 1563,
+          "ext": "webp",
+          "original": "fmwlk33rm-bff10d04.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:22:12.908Z"
+    },
+    {
+      "id": "produto-fc5e2676-2d69-4dec-bd33-4c8e913c263d",
+      "ref": "043",
+      "nome": "Xuxa Cabelo",
+      "slug": "xuxa-cabelo",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "unidade",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwlk1ejq-e80b6a1e",
+          "w": 1102,
+          "h": 996,
+          "ext": "webp",
+          "original": "fmwlk1ejq-e80b6a1e.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:21:21.265Z"
+    },
+    {
+      "id": "produto-6cbb4e32-6061-453a-aa98-8d9fb008c211",
+      "ref": "042",
+      "nome": "Tiara bell",
+      "slug": "tiara-bell",
+      "descricao": "",
+      "preco": 2,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwljw33r-7c349a92",
+          "w": 1100,
+          "h": 768,
+          "ext": "webp",
+          "original": "fmwljw33r-7c349a92.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:16:05.003Z"
+    },
+    {
+      "id": "produto-1bd84c81-d19d-4487-b112-67e7f6c92a56",
+      "ref": "041",
+      "nome": "Clipes 7",
+      "slug": "clipes-7",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljt8cv-f4020ed5",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljt8cv-f4020ed5.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:14:58.648Z"
+    },
+    {
+      "id": "produto-e9d33267-a9e8-4ad4-b202-d0cbee58a4a0",
+      "ref": "040",
+      "nome": "Clipes 6",
+      "slug": "clipes-6",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljsv61-33afe263",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljsv61-33afe263.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:14:43.141Z"
+    },
+    {
+      "id": "produto-6b4128c6-36ad-433c-81c4-c36b66725a61",
+      "ref": "039",
+      "nome": "Clipes 5 ",
+      "slug": "clipes-5",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljsdyh-f3ef6f59",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljsdyh-f3ef6f59.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:13:57.537Z"
+    },
+    {
+      "id": "produto-67fe5b83-c35d-4c6d-9fc2-5ecbdac40953",
+      "ref": "038",
+      "nome": "Clipes 4",
+      "slug": "clipes-4",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljrekv-68d97000",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljrekv-68d97000.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:13:32.148Z"
+    },
+    {
+      "id": "produto-361ca528-9b06-4429-8c32-0bbdfaa6a751",
+      "ref": "037",
+      "nome": "Clipes 3",
+      "slug": "clipes-3",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljqo8j-05347f98",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljqo8j-05347f98.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:12:37.566Z"
+    },
+    {
+      "id": "produto-e9143076-39cc-422d-82e5-14e540f52c36",
+      "ref": "036",
+      "nome": "Clipes 2",
+      "slug": "clipes-2",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljpoj8-87fdd5d8",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljpoj8-87fdd5d8.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:12:00.642Z"
+    },
+    {
+      "id": "produto-3e759968-3f17-4028-8168-7d71e9dd363e",
+      "ref": "035",
+      "nome": "Clipes 1 ",
+      "slug": "clipes-1",
+      "descricao": "",
+      "preco": 7,
+      "unidade": "unidade",
+      "categoria": "clipes",
+      "fotos": [
+        {
+          "id": "fmwljooj6-7b729d2f",
+          "w": 960,
+          "h": 1280,
+          "ext": "webp",
+          "original": "fmwljooj6-7b729d2f.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-18T03:08:52.110Z"
+    },
     {
       "id": "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b",
       "ref": "001",
@@ -343,19 +898,19 @@
     {
       "id": "produto-1789521411041",
       "ref": "008",
-      "nome": "Kit Óculos + Lacinho + ataca",
+      "nome": "Kit Óculos + Lacinho + Piranha",
       "slug": "kit-oculos-lacinho-ataca",
       "descricao": "",
-      "preco": 20,
+      "preco": 24,
       "unidade": "3 kits",
       "categoria": "kits",
       "fotos": [
         {
-          "id": "p008-1-1bbf5c",
-          "w": 1400,
-          "h": 1050,
+          "id": "fmwlkfei1-7103abf8",
+          "w": 1151,
+          "h": 861,
           "ext": "webp",
-          "original": "p008-1-1bbf5c.jpg"
+          "original": "fmwlkfei1-7103abf8.jpg"
         }
       ],
       "visivel": true,
@@ -1136,7 +1691,29 @@
         "produtos": [
           "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde",
           "produto-271a3436-cc12-49de-8d66-b6547c6e6b47",
-          "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b"
+          "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b",
+          "produto-3e759968-3f17-4028-8168-7d71e9dd363e",
+          "produto-e9143076-39cc-422d-82e5-14e540f52c36",
+          "produto-361ca528-9b06-4429-8c32-0bbdfaa6a751",
+          "produto-67fe5b83-c35d-4c6d-9fc2-5ecbdac40953",
+          "produto-6b4128c6-36ad-433c-81c4-c36b66725a61",
+          "produto-e9d33267-a9e8-4ad4-b202-d0cbee58a4a0",
+          "produto-1bd84c81-d19d-4487-b112-67e7f6c92a56",
+          "produto-6cbb4e32-6061-453a-aa98-8d9fb008c211",
+          "produto-fc5e2676-2d69-4dec-bd33-4c8e913c263d",
+          "produto-8443e802-3ac0-47d6-8b10-8c5dbfb83b9f",
+          "produto-dca72f9f-6f87-4455-bda3-809ca09e0289",
+          "produto-b10c4703-1655-4af3-b1a5-a3dcbeb4bf10",
+          "produto-8d7f51d1-5380-4406-9aa6-a54e69b65783",
+          "produto-8ca63546-1215-4f4a-b30c-7310b1c35979",
+          "produto-27fecfb2-00eb-4d08-a572-d6cd3d264076",
+          "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad",
+          "produto-ddd840c7-44ce-4fde-918e-47dc65d151e5",
+          "produto-71e29e63-dbe5-4b6b-a713-f952683e7fce",
+          "produto-cc9eaae7-d1c3-4d83-8462-8ed787073d05",
+          "produto-edbc0eb6-d394-47cd-84dd-0b47c2acc51c",
+          "produto-7a2ebeb5-7b4f-47bc-b706-ab2288d59f31",
+          "produto-39d0b923-8931-451f-bc62-bf04f6e7aeb1"
         ]
       },
       {
@@ -1189,9 +1766,7 @@
         "botao": "Ver coleção de Natal",
         "imagem": null
       },
-      "produtos": [
-        "produto-9a7fcf92-5ddc-4482-b009-0a5e2c51308b"
-      ],
+      "produtos": [],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
@@ -1219,9 +1794,7 @@
         "botao": "Ver coleção Réveillon",
         "imagem": null
       },
-      "produtos": [
-        "produto-d7a66912-3b7f-43d9-bd34-9b7c9effedde"
-      ],
+      "produtos": [],
       "musica": {
         "ativa": true,
         "fonte": "sintetizada",
