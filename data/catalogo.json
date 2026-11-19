@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-19T07:52:17.975Z",
+  "atualizadoEm": "2026-11-19T10:19:09.102Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -146,7 +146,7 @@
       "nome": "Borboleta Natal",
       "slug": "borboleta-natal",
       "descricao": "",
-      "preco": 3.33,
+      "preco": 4,
       "unidade": "2 peças ",
       "categoria": "outros",
       "fotos": [
@@ -578,7 +578,7 @@
       "nome": "Tiara Natal 2 ",
       "slug": "tiara-natal-2",
       "descricao": "",
-      "preco": 6.66,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -603,7 +603,7 @@
       "nome": "Tiara Natal 1 ",
       "slug": "tiara-natal-1",
       "descricao": "",
-      "preco": 6.66,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -1412,7 +1412,7 @@
       "nome": "KIT borboleta",
       "slug": "kit-borboleta",
       "descricao": "",
-      "preco": 6,
+      "preco": 5,
       "unidade": "kit",
       "categoria": "kits",
       "fotos": [
