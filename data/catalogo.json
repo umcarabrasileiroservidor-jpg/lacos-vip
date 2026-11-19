@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-18T15:51:48.840Z",
+  "atualizadoEm": "2026-11-19T07:48:34.827Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,81 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-eab79033-2787-47ff-ad33-373d6fffc565",
+      "ref": "077",
+      "nome": "Dúzia tic tac Estrela com Gliter",
+      "slug": "duzia-tic-tac-estrela-com-gliter",
+      "descricao": "",
+      "preco": 48,
+      "unidade": "Dúzia ",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "fmwn8zh9z-d6e87eed",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwn8zh9z-d6e87eed.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": true,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-19T07:46:43.122Z"
+    },
+    {
+      "id": "produto-8b7f6316-84dc-4f16-81d6-8e2d6c6033bb",
+      "ref": "076",
+      "nome": "Tic tac Estrela com Gliter",
+      "slug": "tic-tac-estrela-com-gliter",
+      "descricao": "",
+      "preco": 4,
+      "unidade": "unidade",
+      "categoria": "tic-tacs",
+      "fotos": [
+        {
+          "id": "fmwn8xsri-a7fb0051",
+          "w": 1792,
+          "h": 2400,
+          "ext": "jpg",
+          "original": "fmwn8xsri-a7fb0051.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": true,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-19T07:43:05.915Z"
+    },
+    {
+      "id": "produto-c7e692c6-6d49-44e9-95aa-5cd1e53c502e",
+      "ref": "075",
+      "nome": "Borboleta Natal",
+      "slug": "borboleta-natal",
+      "descricao": "",
+      "preco": 3.33,
+      "unidade": "2 peças ",
+      "categoria": "outros",
+      "fotos": [
+        {
+          "id": "fmwn8rylk-48d52c93",
+          "w": 2834,
+          "h": 2414,
+          "ext": "jpg",
+          "original": "fmwn8rylk-48d52c93.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-19T07:39:32.649Z"
+    },
     {
       "id": "produto-3121f8c3-fd45-4d43-ad16-4ed18e2bf16e",
       "ref": "074",
@@ -915,7 +990,7 @@
           "original": "fmwljt8cv-f4020ed5.jpg"
         }
       ],
-      "visivel": true,
+      "visivel": false,
       "destaque": false,
       "novidade": true,
       "esgotado": false,
@@ -966,7 +1041,7 @@
         }
       ],
       "visivel": true,
-      "destaque": true,
+      "destaque": false,
       "novidade": true,
       "esgotado": false,
       "somenteCampanha": false,
@@ -2188,7 +2263,8 @@
         "limite": 0,
         "produtos": [
           "produto-31",
-          "produto-6b4128c6-36ad-433c-81c4-c36b66725a61"
+          "produto-8b7f6316-84dc-4f16-81d6-8e2d6c6033bb",
+          "produto-eab79033-2787-47ff-ad33-373d6fffc565"
         ]
       },
       {
@@ -2237,7 +2313,8 @@
         "produto-e7c1dd38-0a8e-4b41-835e-57a64ab25999",
         "produto-c7e6d6b2-094e-41cd-84c8-257507d794af",
         "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76",
-        "produto-6f60c305-1aee-4d23-9bb6-1ff8dd651215"
+        "produto-6f60c305-1aee-4d23-9bb6-1ff8dd651215",
+        "produto-c7e692c6-6d49-44e9-95aa-5cd1e53c502e"
       ],
       "musica": {
         "ativa": true,
