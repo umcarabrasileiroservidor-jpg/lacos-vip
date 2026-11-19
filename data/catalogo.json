@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-19T10:19:09.102Z",
+  "atualizadoEm": "2026-11-19T10:36:47.018Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -71,7 +71,7 @@
       "nome": "Tiara pérola 4",
       "slug": "tiara-perola-4",
       "descricao": "",
-      "preco": 6.66,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -753,7 +753,7 @@
       "nome": "Tiara Pérola 3",
       "slug": "tiara-perola-3",
       "descricao": "",
-      "preco": 5,
+      "preco": 3.33,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -778,7 +778,7 @@
       "nome": "Tiara Pérola 1",
       "slug": "tiara-perola-1",
       "descricao": "",
-      "preco": 6.66,
+      "preco": 5,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
@@ -803,7 +803,7 @@
       "nome": "Tiara pérola  2",
       "slug": "tiara-perola-2",
       "descricao": "",
-      "preco": 5,
+      "preco": 3.33,
       "unidade": "unidade",
       "categoria": "tiaras",
       "fotos": [
