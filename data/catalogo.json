@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-19T07:48:34.827Z",
+  "atualizadoEm": "2026-11-19T07:52:17.975Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,31 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-594690a1-4f1e-4521-bc08-5d80aa79d84b",
+      "ref": "078",
+      "nome": "Tiara pérola 4",
+      "slug": "tiara-perola-4",
+      "descricao": "",
+      "preco": 6.66,
+      "unidade": "unidade",
+      "categoria": "tiaras",
+      "fotos": [
+        {
+          "id": "fmwn92oix-721977d5",
+          "w": 468,
+          "h": 1512,
+          "ext": "jpg",
+          "original": "fmwn92oix-721977d5.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-19T07:49:21.431Z"
+    },
     {
       "id": "produto-eab79033-2787-47ff-ad33-373d6fffc565",
       "ref": "077",
@@ -742,7 +767,7 @@
       ],
       "visivel": true,
       "destaque": false,
-      "novidade": true,
+      "novidade": false,
       "esgotado": false,
       "somenteCampanha": false,
       "criadoEm": "2026-11-18T03:36:39.262Z"
@@ -2240,7 +2265,6 @@
           "produto-8ca63546-1215-4f4a-b30c-7310b1c35979",
           "produto-27fecfb2-00eb-4d08-a572-d6cd3d264076",
           "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad",
-          "produto-ddd840c7-44ce-4fde-918e-47dc65d151e5",
           "produto-71e29e63-dbe5-4b6b-a713-f952683e7fce",
           "produto-cc9eaae7-d1c3-4d83-8462-8ed787073d05",
           "produto-edbc0eb6-d394-47cd-84dd-0b47c2acc51c",
@@ -2348,7 +2372,11 @@
         "produto-18dd34f3-3a5c-4e07-b3b2-8e62be3a3c11",
         "produto-df14cf33-8da9-4862-b6e7-91fa23d362d4",
         "produto-01d875e4-0aa8-4e79-8a9c-0fcbf0405b3d",
-        "produto-3121f8c3-fd45-4d43-ad16-4ed18e2bf16e"
+        "produto-3121f8c3-fd45-4d43-ad16-4ed18e2bf16e",
+        "produto-594690a1-4f1e-4521-bc08-5d80aa79d84b",
+        "produto-ddd840c7-44ce-4fde-918e-47dc65d151e5",
+        "produto-27fecfb2-00eb-4d08-a572-d6cd3d264076",
+        "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad"
       ],
       "musica": {
         "ativa": true,
