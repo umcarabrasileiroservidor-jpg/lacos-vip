@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-19T10:36:47.018Z",
+  "atualizadoEm": "2026-11-19T14:45:45.208Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -146,7 +146,7 @@
       "nome": "Borboleta Natal",
       "slug": "borboleta-natal",
       "descricao": "",
-      "preco": 4,
+      "preco": 3.33,
       "unidade": "2 peças ",
       "categoria": "outros",
       "fotos": [
