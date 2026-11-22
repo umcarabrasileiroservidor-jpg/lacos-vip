@@ -222,6 +222,7 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 16px 40px; }
 .migalhas { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; color: var(--suave); padding: 14px 0 6px; }
 .migalhas a { text-decoration: none; } .migalhas a:hover { color: var(--vinho); text-decoration: underline; }
 .produto { display: grid; gap: 20px; }
+.produto > * { min-width: 0; } /* a galeria não pode alargar a coluna no celular */
 @media (min-width: 900px) { .produto { grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: start; } .galeria { position: sticky; top: 100px; } }
 .galeria-palco { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; border-radius: 20px; background: var(--areia); aspect-ratio: 4 / 5; margin: 0 -16px; }
 @media (min-width: 700px) { .galeria-palco { margin: 0; } }
@@ -437,3 +438,5 @@ body.sem-luzes .secao-campanha .deco { display: none; }
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
 @media (max-width: 419px) { .btn-sacola > span { display: none; } .btn-sacola { padding: 0 8px; gap: 6px; } }
+.comprar .btn-grande { min-width: 0; }
+@media (max-width: 419px) { .comprar .btn-grande { padding: 0 12px; } .comprar .btn-grande .i { display: none; } }
