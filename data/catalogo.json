@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-19T14:45:45.208Z",
+  "atualizadoEm": "2026-11-26T08:18:56.229Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,156 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-8a4070e3-959a-4fd1-8f14-9fedd8e911c4",
+      "ref": "084",
+      "nome": "Laço veludo pontos dourados",
+      "slug": "laco-veludo-pontos-dourados",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxa3u4i-4558cd98",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxa3u4i-4558cd98.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": true,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:14:44.735Z"
+    },
+    {
+      "id": "produto-70cd6283-83c9-4a92-83a4-3cc410e577ce",
+      "ref": "083",
+      "nome": "Laço veludo pontos pratas",
+      "slug": "laco-veludo-pontos-pratas",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxa0tcr-64c0f252",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxa0tcr-64c0f252.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:14:07.379Z"
+    },
+    {
+      "id": "produto-c55c5f4d-46a0-46b6-b748-3269e0275421",
+      "ref": "082",
+      "nome": "Laço toque perolado",
+      "slug": "laco-toque-perolado",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwx9ycp5-cbd430d5",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwx9ycp5-cbd430d5.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:08:16.316Z"
+    },
+    {
+      "id": "produto-db3b0e88-9a1a-4974-81fd-93ea949df541",
+      "ref": "081",
+      "nome": "Laço de renda",
+      "slug": "laco-de-renda",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwx9s5px-76389567",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwx9s5px-76389567.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:06:45.279Z"
+    },
+    {
+      "id": "produto-86ca5c85-f7fd-4b3f-b573-23ca20a919a9",
+      "ref": "080",
+      "nome": "Laço corações ",
+      "slug": "laco-coracoes",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwx9p9c3-aab589e6",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwx9p9c3-aab589e6.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:05:04.341Z"
+    },
+    {
+      "id": "produto-92b38501-a571-45fa-8996-19c080c70502",
+      "ref": "079",
+      "nome": "Laço pedrinhas ",
+      "slug": "laco-pedrinhas",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwx9ol96-74bcf71b",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwx9ol96-74bcf71b.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T02:52:12.768Z"
+    },
     {
       "id": "produto-594690a1-4f1e-4521-bc08-5d80aa79d84b",
       "ref": "078",
@@ -2276,7 +2426,8 @@
           "produto-7c21e3e5-8bd8-4cda-baab-54f1c702cb69",
           "produto-19de95ff-a305-49ee-b380-b8fc23c9a7df",
           "produto-3c6e4dd2-301b-4dca-9b2b-d4e65023af08",
-          "produto-d349923d-ffe1-4fe6-a929-126c9bff8643"
+          "produto-d349923d-ffe1-4fe6-a929-126c9bff8643",
+          "produto-8a4070e3-959a-4fd1-8f14-9fedd8e911c4"
         ]
       },
       {
@@ -2376,7 +2527,12 @@
         "produto-594690a1-4f1e-4521-bc08-5d80aa79d84b",
         "produto-ddd840c7-44ce-4fde-918e-47dc65d151e5",
         "produto-27fecfb2-00eb-4d08-a572-d6cd3d264076",
-        "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad"
+        "produto-d77c720a-115f-4017-aeb2-ea217bdd0cad",
+        "produto-92b38501-a571-45fa-8996-19c080c70502",
+        "produto-86ca5c85-f7fd-4b3f-b573-23ca20a919a9",
+        "produto-db3b0e88-9a1a-4974-81fd-93ea949df541",
+        "produto-c55c5f4d-46a0-46b6-b748-3269e0275421",
+        "produto-70cd6283-83c9-4a92-83a4-3cc410e577ce"
       ],
       "musica": {
         "ativa": true,
