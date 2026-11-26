@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-26T08:28:05.090Z",
+  "atualizadoEm": "2026-11-26T08:38:27.119Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,131 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-29e564a9-3967-420e-9194-1356344933e9",
+      "ref": "094",
+      "nome": "Lacinhos dourados tirinha",
+      "slug": "lacinhos-dourados-tirinha",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxav5nj-8ad05f5b",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxav5nj-8ad05f5b.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:37:51.151Z"
+    },
+    {
+      "id": "produto-e2776073-b90a-44d2-b5c1-f1947345185e",
+      "ref": "093",
+      "nome": "Laço veludo (marfim)",
+      "slug": "laco-veludo-marfim",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxatzpj-8372e721",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxatzpj-8372e721.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:36:53.402Z"
+    },
+    {
+      "id": "produto-4bbfe0fc-4ee0-4952-95b5-9cd8f4c817e8",
+      "ref": "092",
+      "nome": "Laço veludo ( vermelho)",
+      "slug": "laco-veludo-vermelho",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxas5da-5b0ec902",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxas5da-5b0ec902.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:35:26.305Z"
+    },
+    {
+      "id": "produto-703ef2da-5f13-4e15-bf36-751e2dfa0d10",
+      "ref": "091",
+      "nome": "Lacinhos dourados ( marfim)",
+      "slug": "lacinhos-dourados-marfim",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxaraft-0ee8b56b",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxaraft-0ee8b56b.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:34:50.751Z"
+    },
+    {
+      "id": "produto-f232749c-3fed-4d8c-9ecf-684595ac7a91",
+      "ref": "090",
+      "nome": "Lacinhos dourados (branco)",
+      "slug": "lacinhos-dourados-branco",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxaqjck-850640f0",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxaqjck-850640f0.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:33:56.508Z"
+    },
     {
       "id": "produto-c9a6e5ba-52dd-43cc-b912-43e0bf46bf03",
       "ref": "089",
@@ -2617,7 +2742,8 @@
         "produto-c7e692c6-6d49-44e9-95aa-5cd1e53c502e",
         "produto-c63fccf7-fe8d-47b9-b5ce-098b6f369c1e",
         "produto-dadb5909-7d40-465e-bf6f-beb1e13c2b47",
-        "produto-c9a6e5ba-52dd-43cc-b912-43e0bf46bf03"
+        "produto-c9a6e5ba-52dd-43cc-b912-43e0bf46bf03",
+        "produto-4bbfe0fc-4ee0-4952-95b5-9cd8f4c817e8"
       ],
       "musica": {
         "ativa": true,
@@ -2662,7 +2788,11 @@
         "produto-c55c5f4d-46a0-46b6-b748-3269e0275421",
         "produto-70cd6283-83c9-4a92-83a4-3cc410e577ce",
         "produto-8b73203c-7488-4b42-b0a8-a61ad75b16c4",
-        "produto-21668f6f-8156-43bb-912f-6544cfcea08c"
+        "produto-21668f6f-8156-43bb-912f-6544cfcea08c",
+        "produto-f232749c-3fed-4d8c-9ecf-684595ac7a91",
+        "produto-703ef2da-5f13-4e15-bf36-751e2dfa0d10",
+        "produto-e2776073-b90a-44d2-b5c1-f1947345185e",
+        "produto-29e564a9-3967-420e-9194-1356344933e9"
       ],
       "musica": {
         "ativa": true,
