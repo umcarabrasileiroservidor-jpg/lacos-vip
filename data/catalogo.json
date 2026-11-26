@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-26T08:18:56.229Z",
+  "atualizadoEm": "2026-11-26T08:28:05.090Z",
   "loja": {
     "nome": "Laços VIP",
     "slogan": "Pequenos detalhes. Grandes encantos.",
@@ -65,6 +65,131 @@
     }
   ],
   "produtos": [
+    {
+      "id": "produto-c9a6e5ba-52dd-43cc-b912-43e0bf46bf03",
+      "ref": "089",
+      "nome": "Laço corações (vermelho)",
+      "slug": "laco-coracoes-vermelho",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxagrqn-34dabc60",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxagrqn-34dabc60.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:26:40.197Z"
+    },
+    {
+      "id": "produto-dadb5909-7d40-465e-bf6f-beb1e13c2b47",
+      "ref": "088",
+      "nome": "Laço natal dourado ( vermelho)",
+      "slug": "laco-natal-dourado-vermelho",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxafi0f-b089cc79",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxafi0f-b089cc79.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:25:37.949Z"
+    },
+    {
+      "id": "produto-c63fccf7-fe8d-47b9-b5ce-098b6f369c1e",
+      "ref": "087",
+      "nome": "Laço pedrinhas ( vermelho )",
+      "slug": "laco-pedrinhas-vermelho",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxae0iq-0af7d608",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxae0iq-0af7d608.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:24:21.414Z"
+    },
+    {
+      "id": "produto-21668f6f-8156-43bb-912f-6544cfcea08c",
+      "ref": "086",
+      "nome": "Lacinhos dourados",
+      "slug": "lacinhos-dourados",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxabddy-9efc1f33",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxabddy-9efc1f33.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:21:49.578Z"
+    },
+    {
+      "id": "produto-8b73203c-7488-4b42-b0a8-a61ad75b16c4",
+      "ref": "085",
+      "nome": "Laço veludo branco pontos dourados ",
+      "slug": "laco-veludo-branco-pontos-dourados",
+      "descricao": "",
+      "preco": 5,
+      "unidade": "unidade",
+      "categoria": "lacos",
+      "fotos": [
+        {
+          "id": "fmwxa8dyg-ae674ec2",
+          "w": 3024,
+          "h": 4032,
+          "ext": "jpg",
+          "original": "fmwxa8dyg-ae674ec2.jpg"
+        }
+      ],
+      "visivel": true,
+      "destaque": false,
+      "novidade": false,
+      "esgotado": false,
+      "somenteCampanha": false,
+      "criadoEm": "2026-11-26T08:19:44.895Z"
+    },
     {
       "id": "produto-8a4070e3-959a-4fd1-8f14-9fedd8e911c4",
       "ref": "084",
@@ -168,7 +293,7 @@
     {
       "id": "produto-86ca5c85-f7fd-4b3f-b573-23ca20a919a9",
       "ref": "080",
-      "nome": "Laço corações ",
+      "nome": "Laço corações (branco)",
       "slug": "laco-coracoes",
       "descricao": "",
       "preco": 5,
@@ -193,7 +318,7 @@
     {
       "id": "produto-92b38501-a571-45fa-8996-19c080c70502",
       "ref": "079",
-      "nome": "Laço pedrinhas ",
+      "nome": "Laço pedrinhas (branco)",
       "slug": "laco-pedrinhas",
       "descricao": "",
       "preco": 5,
@@ -2489,7 +2614,10 @@
         "produto-c7e6d6b2-094e-41cd-84c8-257507d794af",
         "produto-2b33c6a8-9d50-4854-aae8-9f4611bdee76",
         "produto-6f60c305-1aee-4d23-9bb6-1ff8dd651215",
-        "produto-c7e692c6-6d49-44e9-95aa-5cd1e53c502e"
+        "produto-c7e692c6-6d49-44e9-95aa-5cd1e53c502e",
+        "produto-c63fccf7-fe8d-47b9-b5ce-098b6f369c1e",
+        "produto-dadb5909-7d40-465e-bf6f-beb1e13c2b47",
+        "produto-c9a6e5ba-52dd-43cc-b912-43e0bf46bf03"
       ],
       "musica": {
         "ativa": true,
@@ -2532,7 +2660,9 @@
         "produto-86ca5c85-f7fd-4b3f-b573-23ca20a919a9",
         "produto-db3b0e88-9a1a-4974-81fd-93ea949df541",
         "produto-c55c5f4d-46a0-46b6-b748-3269e0275421",
-        "produto-70cd6283-83c9-4a92-83a4-3cc410e577ce"
+        "produto-70cd6283-83c9-4a92-83a4-3cc410e577ce",
+        "produto-8b73203c-7488-4b42-b0a8-a61ad75b16c4",
+        "produto-21668f6f-8156-43bb-912f-6544cfcea08c"
       ],
       "musica": {
         "ativa": true,
